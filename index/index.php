@@ -27,11 +27,11 @@ require_once '../backend/config.php';
 
 
     <div class="contact">
-            <h1>Waar zijn wij te vinden</h1><br>
+            <h1>Where can you find us.</h1><br>
             <h2>Adres:Koestraat 1<br>
                 den Bosch<br>
                 Phone:0882097521<br>
-                Email Address:tscherders@kpnmail.nl<br>
+                Email Addrres:tscherders@kpnmail.nl<br>
             </h2>
             <a target="_blank" href="https://www.google.com/maps/place/Koestraat+1,+5223+AG+'s-Hertogenbosch/@51.697836,5.2876068,15.42z/data=!4m5!3m4!1s0x47c6ee66bc48c005:0x4dddc528356e3d4f!8m2!3d51.6973624!4d5.2935999">
             <img src="../img/map.png" alt="map" a>
