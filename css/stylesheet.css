@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.contact{
+    background: #222;
+    color: white;
+    border-radius: 15 px;
+    padding: 30px;
+    margin: 150px;
+}

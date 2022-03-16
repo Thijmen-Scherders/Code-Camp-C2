@@ -13,7 +13,7 @@ require_once 'backend/config.php';
 
 </html>
 <head>
-    <link rel="stylesheet" href="<?php echo $base_url ?>/css/style.css">
+    <link rel="stylesheet" href="<?php echo $base_url ?>/css/stylesheet.css">
 </head>
 <body class="mainpage">
 <?php require_once 'layouts/header.php'; ?>
