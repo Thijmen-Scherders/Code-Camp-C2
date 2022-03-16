@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="stylesheet" href="<?php echo $base_url ?>/css/style.css">
+	<link rel="stylesheet" href="<?php echo $base_url ?>/css/stylesheet.css">
 </head>
 <body class="mainpage">
 <?php require_once 'layouts/header.php'; ?>
@@ -26,7 +26,7 @@
 			</h2>
 			<a target="_blank"
 			   href="https://www.google.com/maps/place/Koestraat+1,+5223+AG+'s-Hertogenbosch/@51.697836,5.2876068,15.42z/data=!4m5!3m4!1s0x47c6ee66bc48c005:0x4dddc528356e3d4f!8m2!3d51.6973624!4d5.2935999">
-				<img src="img/map.png" alt="map" a>
+				<img src="<?php echo $base_url ?>/img/map.png" alt="map" a>
 			</a>
 
 
