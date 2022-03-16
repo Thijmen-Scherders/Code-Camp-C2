@@ -1,3 +1,12 @@
+<?php
+
+require_once 'backend/config.php';
+
+
+echo $base_url;
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,3 +45,4 @@
 </div>
 <?php require_once '../layouts/footer.php'; ?>
 </body>
+
