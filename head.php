@@ -1,7 +1,7 @@
 <?php $base_url = 'http://localhost/Code-Camp-C2/';?>
 <head>
   <meta charset="utf-8">
-  <title>codecamp</title>
+  <title>Codecamp</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
