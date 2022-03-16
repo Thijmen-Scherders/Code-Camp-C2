@@ -1,0 +1,24 @@
+name: deploy to main
+on:
+  push:
+    # Sequence of patterns matched against refs/heads
+    branches:    
+      - main
+      
+jobs:
+
+  build:
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script_stop: true
+        script: |
+          cd /opt/school/codecampc2
+          git pull
