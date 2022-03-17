@@ -7,11 +7,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="<?php echo baseUrl() ?>/css/stylesheet.css">
+	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
 	<title>Code Camp C2</title>
 </head> 
 <header>
-    <div class="logo">   <a href="/"><img src="<?php echo baseUrl() ?>/img/code-camp.png" alt="logo" width='150px' height="150px"></a></div>
+    <div class="logo">   <a href="/"><img src="<?php echo baseUrl() ?>/public/code-camp.png" alt="logo" width='150px' height="150px"></a></div>
 <div class="links">
 
 
