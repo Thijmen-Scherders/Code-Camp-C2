@@ -17,10 +17,10 @@
 
     <div class="demo">
     <button><a href="../dranken/dranken.php">Dranken</a></button>
-            <button><A href="../songteksten/songteksten.php"> Songteksten</a> </button>
-            <button><a href="../gereedschap/Gereedschap.php">Gereedschap</a></button>
-            <button><a href="../acteurs/acteurs.php">Acteurs</a></button>
-            <button><a href="../boeken/boeken.php">Boeken</a></button>
+            <button><A href="../pages/songteksten/songteksten.php"> Songteksten</a> </button>
+            <button><a href="../pages/gereedschap/Gereedschap.php">Gereedschap</a></button>
+            <button><a href="../pages/acteurs/acteurs.php">Acteurs</a></button>
+            <button><a href="../pages/boeken/boeken.php">Boeken</a></button>
             
     </div>
 </div>
