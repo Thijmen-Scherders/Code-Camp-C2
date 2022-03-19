@@ -14,8 +14,35 @@
 }
 
 .links{
-    width: 80%;
-    margin: auto;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    color: black;
+   
+    
+}
+
+
+.imbd{
+    display: flex;
+    flex-direction: column;
+}
+
+.videoland{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.nlfilm{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+
+.filmtext{
+    align-items: center;
 }
