@@ -52,6 +52,10 @@
   background-color: yellow;  
 }
 
+.green{
+    background-color: green;
+}
+
 .wrapper{
     width: 60%;
     margin: auto;
@@ -64,7 +68,12 @@
 }
 
 .darth{
-    grid-area: darthd;
+    padding: 15px;
+    grid-area: darth;
+}
+
+.luke{
+    grid-area: luke;
 }
 
 .container{
