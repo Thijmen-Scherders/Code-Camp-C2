@@ -41,8 +41,7 @@
 		</div>
 
 	</div>
-
-
+</div>
 
 <?php includeFooter(); ?>
 
