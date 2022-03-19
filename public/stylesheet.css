@@ -46,3 +46,37 @@
 .filmtext{
     align-items: center;
 }
+
+
+.yellow{
+  background-color: yellow;  
+}
+
+.wrapper{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+}
+
+
+.dart{
+    grid-area: darth;
+}
+
+.darth{
+    grid-area: darthd;
+}
+
+.container{
+    background: #222;
+    color: white;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content: space;
+    margin: 30px;
+  
+  }
+
+
+
