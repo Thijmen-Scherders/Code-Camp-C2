@@ -16,12 +16,11 @@
 
 
     <div class="demo">
-    <button><a href="../dranken/dranken.php">Dranken</a></button>
-            <button><A href="../pages/songteksten/songteksten.php"> Songteksten</a> </button>
-            <button><a href="../pages/gereedschap/Gereedschap.php">Gereedschap</a></button>
-            <button><a href="../pages/acteurs/acteurs.php">Acteurs</a></button>
-            <button><a href="../pages/boeken/boeken.php">Boeken</a></button>
-            
+        <button><a href="<?php echo baseUrl() ?>/pages/dranken/dranken.php">Dranken</a></button>
+        <button><a href="<?php echo baseUrl() ?>/pages/songteksten/songteksten.php"> Songteksten</a> </button>
+        <button><a href="<?php echo baseUrl() ?>/pages/gereedschap/Gereedschap.php">Gereedschap</a></button>
+        <button><a href="<?php echo baseUrl() ?>/pages/acteurs/acteurs.php">Acteurs</a></button>
+        <button><a href="<?php echo baseUrl() ?>/pages/boeken/boeken.php">Boeken</a></button>   
     </div>
 </div>
 </header>
