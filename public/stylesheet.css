@@ -85,7 +85,27 @@
     justify-content: space;
     margin: 30px;
   
-  }
+}
 
+.container-column{
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    justify-content: space;
+    flex-direction: column;
+    margin: 30px;
+}
 
+.container-column p{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
+.container-column.black{
+    background: #222;
+    color: white;
+}
+
+.container-column.orange{
+    background: orange;
+}
