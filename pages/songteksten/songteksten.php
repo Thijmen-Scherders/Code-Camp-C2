@@ -20,6 +20,7 @@
 	 <a href="songs/ironmaiden.php">ironmaiden</a>
 	 <a href="songs/Uprising-Muse.php">Uprising - Muse</a>
 	 <a href="songs/Uprising-MyBaby.php">Uprising - My Baby</a>
+	 <a href="songs/Madness.php">Madness</a>
 	</div>
 </div>
 
