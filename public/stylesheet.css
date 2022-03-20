@@ -122,3 +122,8 @@
     text-decoration: none;
     color: white;
 }
+
+.container-column.black a{
+    text-decoration: underline;
+    color: white;
+}
