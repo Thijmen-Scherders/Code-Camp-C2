@@ -18,6 +18,7 @@
 	 <a href="songs/PlugInBaby.php">Plug in baby</a>
 	 <a href="songs/queen.php">Bohemian Rhapsody</a>
 	 <a href="songs/ironmaiden.php">ironmaiden</a>
+	 <a href="songs/Uprising.php">Uprising</a>
 	</div>
 </div>
 
