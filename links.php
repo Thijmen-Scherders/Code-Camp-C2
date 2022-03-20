@@ -12,11 +12,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
-    
+	<title>Links</title>
 </head>
 <body>
-  
-    <?php includeHeader(); ?>   
+
+    <?php includeHeader(); ?>
     <div class="filtext">
     <p>Hier vind u verschillende links naar film pagina's</p>
     </div>
@@ -32,7 +32,7 @@
             <img src="<?php echo baseUrl() ?>/public/videoland.png" alt="map" a>"
             <a href="https://www.videoland.com/nl/">Videoland</a>
         </div>
-        
+
         <div class="nlfilm">
         <img src="<?php echo baseUrl() ?>/public/nlfilm.png" alt="map" a>"
         <a href="https://www.film.nl/">Film.nl</a>

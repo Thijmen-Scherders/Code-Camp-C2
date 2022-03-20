@@ -1,29 +1,27 @@
 <?php
-	$path = $_SERVER['DOCUMENT_ROOT'];
-	$path .= "/backend/config.php";
-	include_once($path);
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= "/backend/config.php";
+include_once($path);
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
+	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
+	<title>CodeCamp C2</title>
 </head>
+
 <body class="mainpage">
 
-
 <?php includeHeader(); ?>
-
 
 <div class="wrapper">
 	<div class="datum_tijd">
 		<iframe src="https://free.timeanddate.com/clock/i80s3idm/n1297/tlaw14/fn6/fs16/fcfff/tc000/ftb/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
 				frameborder="0" width="207" height="58"></iframe>
-
-
 	</div>
-	<div class="homeimg">
 
+	<div class="homeimg">
 
 		<div class="contact">
 			<h1>Where can you find us.</h1><br>
@@ -44,7 +42,6 @@
 </div>
 
 <?php includeFooter(); ?>
-
 
 </body>
 
