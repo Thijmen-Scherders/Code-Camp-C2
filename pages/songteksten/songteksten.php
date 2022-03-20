@@ -21,6 +21,7 @@
 	 <a href="songs/Uprising-Muse.php">Uprising - Muse</a>
 	 <a href="songs/Uprising-MyBaby.php">Uprising - My Baby</a>
 	 <a href="songs/Madness.php">Madness</a>
+	 <a href="songs/Killer_Queen.php">Killer Queen</a>
 	</div>
 </div>
 
