@@ -20,7 +20,8 @@ include_once($path);
 	<div class="container">
 		<a href="#">Item</a>
 	</div>
-	<button><a href="<?php echo baseUrl() ?>/subpages/kettingzagen/index.php">kettingzagen</a></button>
+	<button><a href="<?php echo baseUrl() ?>/zagen/kettingzagen/index.php">kettingzagen</a></button>
+	<button><a href="<?php echo baseUrl() ?>/zagen/cirkelzagen/index.php">cirkelzagen</a></button>
 </div>
 
 <?php includeFooter(); ?>
