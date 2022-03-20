@@ -16,9 +16,11 @@ include_once($path);
 <?php includeHeader(); ?>
 
 <div class="wrapper">
+	
 	<div class="container">
 		<a href="#">Item</a>
 	</div>
+	<button><a href="<?php echo baseUrl() ?>/subpages/kettingzagen/index.php">kettingzagen</a></button>
 </div>
 
 <?php includeFooter(); ?>
