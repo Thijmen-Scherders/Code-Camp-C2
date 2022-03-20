@@ -16,6 +16,7 @@
 <div class="wrapper">
 	<div class="container">
 	 <a href="songs/PlugInBaby.php">Plug in baby</a>
+	 <a href="songsqueen.php">Bohemian Rhapsody</a>
 	</div>
 </div>
 
