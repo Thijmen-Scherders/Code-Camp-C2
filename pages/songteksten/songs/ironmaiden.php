@@ -14,10 +14,12 @@
 <?php includeHeader(); ?>
 
 <div class="wrapper">
-	<div class="container">
-	 <a href="songs/PlugInBaby.php">Plug in baby</a>
-	 <a href="songs/queen.php">Bohemian Rhapsody</a>
-	 <a href="songs/ironmaiden.php">ironmaiden</a>
+	<div class="container-column red">
+		<h1>Ironmaiden </h1>
+		<p> 
+			Insturmentaal nummer
+		</p> 
+	
 	</div>
 </div>
 
