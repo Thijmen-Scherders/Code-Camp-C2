@@ -8,9 +8,14 @@
 .contact{
     background: #222;
     color: white;
-    border-radius: 15 px;
+    border-radius: 15px;
     padding: 30px;
     margin: 150px;
+}
+
+.contact h2{
+
+    margin-bottom: 10px;
 }
 
 .links{
