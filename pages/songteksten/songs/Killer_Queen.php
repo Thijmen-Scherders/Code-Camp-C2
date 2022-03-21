@@ -86,6 +86,7 @@
             Wanna try?
             You wanna try
         </p>
+        <img src="<?php echo baseUrl() ?>/public/Queen.png" alt="map"/>
 	</div>
 </div>
 

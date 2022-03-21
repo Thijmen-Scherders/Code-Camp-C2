@@ -76,7 +76,6 @@
 }
 
 .container{
-    background: #222;
     color: white;
     border-radius: 15px;
     padding: 25px;
@@ -147,4 +146,13 @@
 .container-column img{
     width: 20rem;
     height: auto;
+}
+
+.container.black{
+    background: #222;
+}
+
+.container-column h1{
+    display: flex;
+    justify-content: center;
 }
