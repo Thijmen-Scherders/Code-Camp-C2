@@ -8,6 +8,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
+    <title>Killer Queen</title>
 </head>
 <body class="mainpage">
 
