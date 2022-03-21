@@ -26,6 +26,7 @@ include_once($path);
 		<div class="container">
 			<img src="/public/img/cola.jpg" alt="cola" width="300px" height="300px">
 			<p> Cola is een koolzuurhoudende frisdrank. Het smaakt zoet (maar is qua pH zuur) en bevat circa 28-32 mg cafeïne per 33 cl. Andere belangrijke ingrediënten zijn vanille, kaneel, karamel en citroen</p>
+			<p>Anders dan de meeste frisdranken bevat het geen citroenzuur, maar fosforzuur. Dieetcola bevat zowel fosforzuur als citroenzuur. Er bestaan naast suikervrije ook cafeïnevrije colavarianten.</p>
 		</div>
 			<br><a href="acteurs/acteur/Roger-Moore.php">Roger Moore</a>
 		</div>
@@ -48,6 +49,7 @@ include_once($path);
 		</div>
 
 		</div>
+</div>
 </div>
 
 <?php includeFooter(); ?>
