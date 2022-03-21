@@ -12,6 +12,7 @@ include_once($path);
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
+	<title>Darth Vader</title>
 </head>
 
 <body class="yellow">
@@ -19,7 +20,7 @@ include_once($path);
 <?php includeHeader(); ?>
 <div class="wrapper yellow">
 	<div class="container">
-		<img src="<?php echo baseUrl() ?>/public/darth.jpg" alt="map" a>
+		<img src="<?php echo baseUrl() ?>/public/darth.jpg" alt="map"/>
 		<p class="darth">
 			Darth Vader is a fictional character in the Star Wars franchise. The character is the primary antagonist in
 			the original trilogy and, as Anakin Skywalker, is a primary protagonist in the prequel trilogy. Star Wars
