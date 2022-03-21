@@ -15,7 +15,7 @@ include_once($path);
 
 <?php includeHeader(); ?>
 
-<?php includeSongMenu(); ?>
+<?php includeSongsSubMenu(); ?>
 
 <?php includeFooter(); ?>
 

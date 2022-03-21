@@ -18,6 +18,9 @@ include_once($path);
 <body class="yellow">
 
 <?php includeHeader(); ?>
+
+<?php includeActorsSubMenu(); ?>
+
 <div class="wrapper yellow">
 	<div class="container black">
 		<img src="<?php echo baseUrl() ?>/public/img/darth.jpg" alt="map"/>

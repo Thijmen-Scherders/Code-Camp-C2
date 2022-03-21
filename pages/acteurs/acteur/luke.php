@@ -20,6 +20,8 @@
 
 <?php includeHeader(); ?>
 
+<?php includeActorsSubMenu(); ?>
+
 <div class="wrapper green">
 <div class="container black">
     <img src="<?php echo baseUrl() ?>/public/img/luke.jpg" alt="map"/>

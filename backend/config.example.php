@@ -22,12 +22,24 @@ function includeFooter()
     include $path .= '/layouts/footer.php';
 }
 
-function includeSongMenu()
+function includeSongsSubMenu()
 {
     $path = $_SERVER['DOCUMENT_ROOT'];
-    include $path .= '/pages/songteksten/song-links.php';
+    include $path .= '/pages/songteksten/submenu.php';
 }
 
+
+function includeToolsSubMenu()
+{
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path .= '/pages/gereedschap/submenu.php';
+}
+
+function includeActorsSubMenu()
+{
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path .= '/pages/acteurs/submenu.php';
+}
 
 // Zelf aan passen indien de url anders is!
 

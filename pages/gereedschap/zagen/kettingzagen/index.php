@@ -13,7 +13,10 @@ include_once($path);
 
 <body class="mainpage">
 
-<?php includeHeader(); ?>   
+<?php includeHeader(); ?>
+
+<?php includeToolsSubMenu(); ?>
+
     <div class="kettingzaag">
         <h1>kettingzagen</h1>
         <img src="/public/img/kettingzaag.jpg" alt="kettingzaag">

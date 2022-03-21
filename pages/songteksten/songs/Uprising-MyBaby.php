@@ -14,7 +14,7 @@
 
 <?php includeHeader(); ?>
 
-<?php includeSongMenu(); ?>
+<?php includeSongsSubMenu(); ?>
 
 <div class="wrapper">
 	<div class="container-column orange">

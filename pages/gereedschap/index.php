@@ -15,14 +15,7 @@ include_once($path);
 
 <?php includeHeader(); ?>
 
-<div class="wrapper">
-	
-	<div class="container black">
-		<a href="zagen/kettingzagen/index.php">Kettingzagen</a>
-		<a href="zagen/cirkelzagen/index.php">Cirkelzagen</a>
-		<a href="hamers/index.php">Hamers</a>
-	</div>
-</div>
+<?php includeToolsSubMenu() ?>
 
 <?php includeFooter(); ?>
 

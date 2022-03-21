@@ -14,6 +14,8 @@
 
 <?php includeHeader(); ?>
 
+<?php includeActorsSubMenu(); ?>
+
 <div class="wrapper">
 	<div class="container-column black">
 		<h1>Sir Roger George Moore</h1>
