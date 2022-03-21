@@ -219,3 +219,12 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+.kettingzaag{
+    background-color: #b79762;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 300px;
+    padding-left: 300px;
+    margin: 80px;
+}
