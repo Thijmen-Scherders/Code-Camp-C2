@@ -10,9 +10,20 @@ include_once($path);
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
-	<title>Songteksten</title>
+	<title>Koude dranken</title>
 </head>
-<body>
-    
+<body class="mainpage">
+
+<?php includeHeader(); ?>
+
+<div class="wrapper">
+	<div class="container black">
+		<a href="#">Item 1</a>
+		<a href="#">Item 2</a>
+	</div>
+</div>
+
+<?php includeFooter(); ?>
+
 </body>
 </html>
