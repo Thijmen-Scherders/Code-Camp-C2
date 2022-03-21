@@ -29,14 +29,15 @@
 
 }
 
-.menu .links {
+.menu-links {
+    width: 75%;
     display: flex;
     padding: 5px;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.menu .links a {
+.menu-links a {
     background-color: var(--lightgray);
     padding: 25px;
     border-radius: 15px;
@@ -61,7 +62,7 @@
 }
 
 .links {
-    width: 60%;
+    display: flex;
     margin: auto;
     color: var(--black);
 }

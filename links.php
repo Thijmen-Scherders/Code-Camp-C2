@@ -22,7 +22,7 @@
     </div>
 
 
-    <div class="link">
+    <div class="links">
         <div class="imdb">
             <img src="<?php echo baseUrl() ?>/public/img/imdb.png" alt="map">
             <a href="https://www.imdb.com/">imdb.com</a>
