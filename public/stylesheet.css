@@ -115,6 +115,7 @@
 
 .luke {
     grid-area: luke;
+    
 }
 
 .container {
@@ -218,9 +219,6 @@ footer {
     border-radius: 15px;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
 }
 
 .container.song {
@@ -229,7 +227,8 @@ footer {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .kettingzaag{
     background-color: #b79762;
@@ -239,4 +238,24 @@ footer {
     padding-right: 300px;
     padding-left: 300px;
     margin: 80px;
+}
+.kettingzaag img{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.kettingzaag2 {
+    background-color: #fdeb35;
+    border-radius: 30px;
+    padding: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.kettingzaag3{
+    background-color: #857f5f;
+    border-radius: 30px;
+    padding: 40px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
