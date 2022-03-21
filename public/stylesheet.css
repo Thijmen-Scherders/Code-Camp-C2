@@ -187,7 +187,7 @@
 }
 
 footer {
-    background: #222;
+    background: var(--grey);
     position: fixed;
     bottom: 0;
     width: 100%;
