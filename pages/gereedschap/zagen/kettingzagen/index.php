@@ -16,7 +16,7 @@ include_once($path);
 <?php includeHeader(); ?>   
     <div class="kettingzaag">
         <h1>kettingzagen</h1>
-        <img src="/public/kettingzaag.jpg" alt="kettingzaag" a>
+        <img src="/public/kettingzaag.jpg" alt="kettingzaag">
         <h2>Een kettingzaag (ook motorzaag, motorkettingzaag of boomzaag genoemd) 
         is een draagbare machine om mee te zagen. De belangrijkste functie is 
         hout zagen.</h2>
