@@ -8,7 +8,7 @@ include_once($path);
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
-	<title>gereedschap</title>
+	<title>kettingzagen</title>
 </head>
 
 <body class="mainpage">
