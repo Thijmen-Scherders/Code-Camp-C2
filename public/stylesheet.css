@@ -47,11 +47,6 @@
     align-items: center;
 }
 
-
-.yellow{
-  background-color: yellow;  
-}
-
 .green{
     background-color: green;
 }
@@ -126,4 +121,13 @@
 .container-column.black a{
     text-decoration: underline;
     color: white;
+}
+
+.logo img{
+    width: auto;
+    height: 5rem;
+}
+
+.wrapper.yellow{
+    background-color: yellow;
 }
