@@ -14,11 +14,13 @@
 
 <?php includeHeader(); ?>
 
+<?php includeSongMenu(); ?>
+
 <div class="wrapper">
 	<div class="container-column blue">
 		<h1>Queen - We are the champions</h1>
             <div class="container song">
-                  <img src="<?php echo baseUrl() ?>/public/Champions.png" alt="map"/>
+                  <img src="<?php echo baseUrl() ?>/public/img/champions.png" alt="map"/>
                   <div class="container-column song">
                         <p> 
                         I've paid my dues

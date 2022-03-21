@@ -14,6 +14,8 @@
 
 <?php includeHeader(); ?>
 
+<?php includeSongMenu(); ?>
+
 <div class="wrapper">
 	<div class="container-column blue">
 		<h1>Queen - Killer Queen</h1>

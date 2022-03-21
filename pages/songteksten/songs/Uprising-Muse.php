@@ -14,6 +14,8 @@
 
 <?php includeHeader(); ?>
 
+<?php includeSongMenu(); ?>
+
 <div class="wrapper">
 	<div class="container-column orange">
 		<h1>Muse - Uprising</h1>

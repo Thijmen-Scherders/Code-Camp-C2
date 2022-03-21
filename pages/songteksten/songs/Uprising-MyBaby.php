@@ -14,6 +14,8 @@
 
 <?php includeHeader(); ?>
 
+<?php includeSongMenu(); ?>
+
 <div class="wrapper">
 	<div class="container-column orange">
 		<h1>My Baby - Uprising</h1>

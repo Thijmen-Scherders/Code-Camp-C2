@@ -14,6 +14,8 @@
 
 <?php includeHeader(); ?>
 
+<?php includeSongMenu(); ?>
+
 <div class="wrapper">
 	<div class="container-column red">
 		<h1>Ironmaiden - Transylvania</h1>
