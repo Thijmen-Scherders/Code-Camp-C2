@@ -143,3 +143,8 @@
 .container p{
     margin-left: 1rem;
 }
+
+.container-column img{
+    width: 20rem;
+    height: auto;
+}

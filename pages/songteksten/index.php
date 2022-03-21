@@ -20,7 +20,7 @@ include_once($path);
 		<a href="songs/PlugInBaby.php">Plug in baby</a>
 		<a href="songs/PlugInBaby2.php">Plug in baby (red)</a>
 		<a href="songs/queen.php">Bohemian Rhapsody</a>
-		<a href="songs/ironmaiden.php">Ironmaiden</a>
+		<a href="songs/Transylvania.php">Transylvania</a>
 		<a href="songs/Uprising-Muse.php">Uprising - Muse</a>
 		<a href="songs/Uprising-MyBaby.php">Uprising - My Baby</a>
 		<a href="songs/Madness.php">Madness</a>
