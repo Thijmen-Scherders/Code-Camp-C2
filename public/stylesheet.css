@@ -146,6 +146,11 @@
     color: var(--white);
 }
 
+.container.orange{
+background: orange;
+
+}
+
 .container-column.orange {
     background: var(--orange);
 }
@@ -168,6 +173,15 @@
     text-decoration: underline;
     color: var(--white);
 }
+
+.container1{
+    background: orangered;
+    color: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 30px;
+    height: 25%;
+  }
 
 .logo img {
     width: auto;
