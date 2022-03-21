@@ -17,7 +17,7 @@ include_once($path);
 <body class="yellow">
 
 <?php includeHeader(); ?>
-<div class="wrapper">
+<div class="wrapper yellow">
 	<div class="container">
 		<img src="<?php echo baseUrl() ?>/public/darth.jpg" alt="map" a>"
 		<p class="darth">
