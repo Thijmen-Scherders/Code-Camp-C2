@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="<?php echo baseUrl() ?>public/stylesheet.css">
+    <link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
 </head>
 <body class="mainpage">
 

@@ -18,10 +18,9 @@ include_once($path);
 <div class="wrapper">
 	
 	<div class="container">
-		<a href="#">Item</a>
+		<a href="zagen/kettingzagen/index.php">Kettingzagen</a>
+		<a href="zagen/cirkelzagen/index.php">Cirkelzagen</a>
 	</div>
-	<button><a href="<?php echo baseUrl() ?>/zagen/kettingzagen/index.php">kettingzagen</a></button>
-	<button><a href="<?php echo baseUrl() ?>/zagen/cirkelzagen/index.php">cirkelzagen</a></button>
 </div>
 
 <?php includeFooter(); ?>
