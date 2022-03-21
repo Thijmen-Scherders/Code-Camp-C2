@@ -19,7 +19,7 @@ include_once($path);
 
 <?php includeHeader(); ?>
 <div class="wrapper yellow">
-	<div class="container">
+	<div class="container black">
 		<img src="<?php echo baseUrl() ?>/public/darth.jpg" alt="map"/>
 		<p class="darth">
 			Darth Vader is a fictional character in the Star Wars franchise. The character is the primary antagonist in

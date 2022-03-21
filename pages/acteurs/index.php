@@ -16,7 +16,7 @@ include_once($path);
 <?php includeHeader(); ?>
 
 <div class="wrapper">
-	<div class="container">
+	<div class="container black">
 		<a href="acteur/Roger-Moore.php">Roger Moore</a>
 		<a href="acteur/Timothy-Dalton.php">Timothy Dalton</a>
 		<a href="acteur/Darth.php">Darth Vader</a>

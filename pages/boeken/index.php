@@ -16,7 +16,7 @@ include_once($path);
 <?php includeHeader(); ?>
 
 <div class="wrapper">
-	<div class="container">
+	<div class="container black">
 		<a href="#">Item</a>
 	</div>
 	<h2>Het boek is een veelgebruikte manier om informatie vast te leggen 

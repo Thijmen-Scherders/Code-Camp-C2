@@ -16,7 +16,7 @@ include_once($path);
 <?php includeHeader(); ?>
 
 <div class="wrapper">
-	<div class="container">
+	<div class="container black">
 		<a href="songs/PlugInBaby.php">Plug in baby</a>
 		<a href="songs/PlugInBaby2.php">Plug in baby (red)</a>
 		<a href="songs/queen.php">Bohemian Rhapsody</a>

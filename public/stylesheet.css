@@ -156,10 +156,11 @@ footer{
     color: white;
     border-radius: 15px;
     text-align: center;
+}
 
 .container-column img{
-    width: 20rem;
-    height: auto;
+    width: auto;
+    height: 15rem;
 }
 
 .container.black{
@@ -169,4 +170,22 @@ footer{
 .container-column h1{
     display: flex;
     justify-content: center;
+}
+
+.container-column.song{
+    border-radius: 15px;
+    padding: 0px;
+    display: flex;
+    justify-content: space;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.container.song{
+    color: white;
+    border-radius: 15px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
 }

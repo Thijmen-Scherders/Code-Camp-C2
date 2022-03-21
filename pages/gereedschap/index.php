@@ -17,7 +17,7 @@ include_once($path);
 
 <div class="wrapper">
 	
-	<div class="container">
+	<div class="container black">
 		<a href="zagen/kettingzagen/index.php">Kettingzagen</a>
 		<a href="zagen/cirkelzagen/index.php">Cirkelzagen</a>
 	</div>
