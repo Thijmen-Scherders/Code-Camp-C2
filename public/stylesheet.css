@@ -158,4 +158,7 @@ footer{
     border-radius: 15px;
     text-align: center;
 
+.container-column img{
+    width: 20rem;
+    height: auto;
 }

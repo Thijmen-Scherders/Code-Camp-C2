@@ -15,11 +15,11 @@
 
 <div class="wrapper">
 	<div class="container-column red">
-		<h1>Ironmaiden </h1>
+		<h1>Ironmaiden - Transylvania</h1>
 		<p> 
 			Insturmentaal nummer
 		</p> 
-	
+		<img src="<?php echo baseUrl() ?>/public/Transylvania.png" alt="map"/>
 	</div>
 </div>
 
