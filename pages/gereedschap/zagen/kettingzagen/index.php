@@ -20,8 +20,8 @@ include_once($path);
         <h2>Een kettingzaag (ook motorzaag, motorkettingzaag of boomzaag genoemd) 
         is een draagbare machine om mee te zagen. De belangrijkste functie is 
         hout zagen.</h2>
-        <h2>Elektrische kettingzaag</h2>
         <div class="kettingzaag2">
+            <h2>Elektrische kettingzaag</h2>
             <img src="/public/elektrisch.jpg" alt="elektrische zaag" a>
             <h2>Elektrische kettingzagen zijn met name bedoeld voor particulier gebruik. 
             Ze zijn milieuvriendelijker en maken doorgaans minder lawaai dan 
