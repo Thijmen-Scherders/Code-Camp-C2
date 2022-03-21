@@ -3,25 +3,49 @@
     padding: 0;
 }
 
+.menu {
+    max-height: 300px;
+    display: flex;
+    background-color: grey;
+    padding: 10px;
+    margin-bottom: 10px;
+}
 
+.menu .logo {
+    display: flex;
+    max-height: 100px;
+
+}
+.menu .links {
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu .links a {
+    background-color: lightgray;
+    padding: 25px;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration-line: none;
+
+}
 
 .contact{
     background: #222;
     color: white;
-    border-radius: 15 px;
+    border-radius: 15px;
     padding: 30px;
     margin: 150px;
 }
 
 .links{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 60%;
     margin: auto;
     color: black;
-   
-    
 }
 
 
@@ -88,7 +112,7 @@
     border-radius: 15px;
     padding: 25px;
     display: flex;
-    justify-content: space;
+    /*justify-content: space;*/
     flex-direction: column;
     margin: 30px;
 }
