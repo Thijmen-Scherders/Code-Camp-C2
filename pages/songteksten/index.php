@@ -18,12 +18,14 @@ include_once($path);
 <div class="wrapper">
 	<div class="container">
 		<a href="songs/PlugInBaby.php">Plug in baby</a>
+		<a href="songs/PlugInBaby2.php">Plug in baby (red)</a>
 		<a href="songs/queen.php">Bohemian Rhapsody</a>
-		<a href="songs/ironmaiden.php">ironmaiden</a>
+		<a href="songs/ironmaiden.php">Ironmaiden</a>
 		<a href="songs/Uprising-Muse.php">Uprising - Muse</a>
 		<a href="songs/Uprising-MyBaby.php">Uprising - My Baby</a>
 		<a href="songs/Madness.php">Madness</a>
 		<a href="songs/Killer_Queen.php">Killer Queen</a>
+		<a href="songs/Wearethechampions.php">We are the champions</a>
 	</div>
 </div>
 
