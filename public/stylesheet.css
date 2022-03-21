@@ -78,11 +78,11 @@
 .container{
     background: #222;
     color: white;
-    /* border-radius: 15px; */
+    border-radius: 15px;
     padding: 25px;
     display: flex;
     justify-content: space-between;
-    /* margin: 30px; */
+    margin: 30px;
 }
 
 .container-column{
