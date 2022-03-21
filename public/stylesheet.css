@@ -206,9 +206,6 @@ footer {
     border-radius: 15px;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
 }
 
 .container.song {
@@ -217,7 +214,8 @@ footer {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .kettingzaag{
     background-color: #b79762;

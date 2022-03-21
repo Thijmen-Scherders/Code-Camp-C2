@@ -18,11 +18,9 @@
 		<h1>Ironmaiden - Transylvania</h1>
 		<div class="container song">
 			<img src="<?php echo baseUrl() ?>/public/Transylvania.png" alt="map"/>
-                <div class="container-column song">
-					<p> 
-					Insturmentaal nummer
-					</p> 
-				</div>
+					<p>
+					Instrumentaal nummer
+					</p>
 		</div>
 		
 	</div>
