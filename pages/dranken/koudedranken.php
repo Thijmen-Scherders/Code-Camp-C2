@@ -38,8 +38,10 @@ include_once($path);
 
 				<div class="container">
 					<img src="/public/img/up.jpg" alt="up" width="300px" height="300px">
-					<p>Up (of Seven-Up) is een frisdrankmerk van Dr Pepper Snapple Group in de Verenigde Staten en PepsiCo in de rest van de wereld</p>
-					<p></p>
+					<div class="container-column">
+						<p>Up (of Seven-Up) is een frisdrankmerk van Dr Pepper Snapple Group in de Verenigde Staten en PepsiCo in de rest van de wereld</p>
+						<p>7 Up (gestileerd als 7up buiten de VS) is een Amerikaans merk van niet-cafeïnehoudende frisdrank met citroen-limoensmaak. De rechten op het merk zijn in handen van Keurig Dr Pepper in de Verenigde Staten en van 7 Up international in de rest van de wereld. De Amerikaanse versie van het 7 Up-logo bevat een roodoranje cirkel tussen de "7" en "Up"; deze rood-oranje cirkel is geanimeerd en gebruikt als mascotte voor het merk als Cool Spot. Daarvoor was de mascotte een fictief personage</p>
+					</div>
 				</div>
 			</div>
 			<div class="container1">
