@@ -3,10 +3,22 @@
     padding: 0;
 }
 
+:root{
+    --red:  red;
+    --grey:  grey;
+    --blue: blue;
+    --green:  green;
+    --yellow:  yellow;
+    --black:  black;
+    --white:  white;
+    --lightgray:  lightgray;
+    --orange:  orange;
+}
+
 .menu {
     max-height: 300px;
     display: flex;
-    background-color: grey;
+    background-color: var(--grey);
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -25,19 +37,19 @@
 }
 
 .menu .links a {
-    background-color: lightgray;
+    background-color: var(--lightgray);
     padding: 25px;
     border-radius: 15px;
     font-weight: bolder;
     font-size: 1.2rem;
-    color: black;
+    color: var(--black);
     text-decoration-line: none;
 
 }
 
 .contact {
     background: #222;
-    color: white;
+    color: var(--white);
     border-radius: 15px;
     padding: 30px;
     margin: 150px;
@@ -51,7 +63,7 @@
 .links {
     width: 60%;
     margin: auto;
-    color: black;
+    color: var(--black);
 }
 
 
@@ -78,17 +90,17 @@
 }
 
 .yellow {
-    background-color: yellow;
+    background-color: var(--yellow);
 }
 
 .green {
-    background-color: green;
+    background-color: var(--green);
 }
 
 .wrapper {
     width: 80%;
     margin: auto;
-    background-color: white;
+    background-color: var(--white);
 }
 
 
@@ -103,10 +115,11 @@
 
 .luke {
     grid-area: luke;
+    
 }
 
 .container {
-    color: white;
+    color: var(--white);
     border-radius: 15px;
     padding: 25px;
     display: flex;
@@ -130,30 +143,30 @@
 
 .container-column.black {
     background: #222;
-    color: white;
+    color: var(--white);
 }
 
 .container-column.orange {
-    background: orange;
+    background: var(--orange);
 }
 
 .container-column.blue {
-    background: blue;
-    color: white;
+    background: var(--blue);
+    color: var(--white);
 }
 
 .container-column.red {
-    background: red;
+    background: var(--red);
 }
 
 .container a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 .container-column.black a {
     text-decoration: underline;
-    color: white;
+    color: var(--white);
 }
 
 .logo img {
@@ -162,11 +175,11 @@
 }
 
 .wrapper.yellow {
-    background-color: yellow;
+    background-color: var(--yellow);
 }
 
 .wrapper.green {
-    background-color: green;
+    background-color: var(--green);
 }
 
 .container p {
@@ -183,7 +196,7 @@ footer {
 }
 
 .contact2 {
-    color: white;
+    color: var(--white);
     border-radius: 15px;
     text-align: center;
 }
@@ -209,7 +222,7 @@ footer {
 }
 
 .container.song {
-    color: white;
+    color: var(--white);
     border-radius: 15px;
     padding: 0;
     margin: 0;
