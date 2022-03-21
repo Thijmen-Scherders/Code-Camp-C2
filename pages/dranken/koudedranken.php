@@ -39,6 +39,7 @@ include_once($path);
 				<div class="container">
 					<img src="/public/img/up.jpg" alt="up" width="300px" height="300px">
 					<p>Up (of Seven-Up) is een frisdrankmerk van Dr Pepper Snapple Group in de Verenigde Staten en PepsiCo in de rest van de wereld</p>
+					<p></p>
 				</div>
 			</div>
 			<div class="container1">
