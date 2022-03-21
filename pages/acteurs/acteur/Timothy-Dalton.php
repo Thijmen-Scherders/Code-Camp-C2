@@ -22,7 +22,7 @@
 
 <div class="wrapper green">
     <div class="container black">
-        <img src="<?php echo baseUrl() ?>/public/timothy.png" alt="map"/>
+        <img src="<?php echo baseUrl() ?>/public/img/timothy.png" alt="map"/>
         <div class="container-column">
             <h1>Timothy Leonard Dalton Leggett</h1>
             <p> 

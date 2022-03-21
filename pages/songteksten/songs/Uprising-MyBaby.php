@@ -18,7 +18,7 @@
 	<div class="container-column orange">
 		<h1>My Baby - Uprising</h1>
             <div class="container song">
-                  <img src="<?php echo baseUrl() ?>/public/MyBaby.png" alt="map"/>
+                  <img src="<?php echo baseUrl() ?>/public/img/MyBaby.png" alt="map"/>
                   <div class="container-column song">
                         <p> 
                         Allow me in your tub

@@ -18,7 +18,7 @@
 	<div class="container-column blue">
 		<h1>Queen - Killer Queen</h1>
         <div class="container song">
-            <img src="<?php echo baseUrl() ?>/public/Queen.png" alt="map"/>
+            <img src="<?php echo baseUrl() ?>/public/img/Queen.png" alt="map"/>
                 <div class="container-column song">
                     <p> 
                         She keeps her Moet et Chandon

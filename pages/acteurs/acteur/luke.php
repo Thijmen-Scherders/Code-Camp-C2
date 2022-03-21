@@ -22,7 +22,7 @@
 
 <div class="wrapper green">
 <div class="container black">
-    <img src="<?php echo baseUrl() ?>/public/luke.jpg" alt="map"/>
+    <img src="<?php echo baseUrl() ?>/public/img/luke.jpg" alt="map"/>
     <div class="container-column">
         <p class="luke">
         Luke Skywalker is een fictief personage en de hoofdpersoon van de originele filmtrilogie van de Star Wars-franchise, gemaakt door George Lucas.

@@ -18,7 +18,7 @@
 	<div class="container-column orange">
 		<h1>Muse - Uprising</h1>
             <div class="container song">
-                  <img src="<?php echo baseUrl() ?>/public/Muse.png" alt="map"/>
+                  <img src="<?php echo baseUrl() ?>/public/img/Muse.png" alt="map"/>
                   <div class="container-column song">
                         <p> 
                         Paranoia is in bloom

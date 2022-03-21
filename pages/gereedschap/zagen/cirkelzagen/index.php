@@ -16,7 +16,7 @@ include_once($path);
 <?php includeHeader(); ?>   
     <div class="cirkelbox">
         <h1>cirkelzagen</h1>
-        <img src="/public/cirkelzaag.jpg" alt="cirkelzaag">
+        <img src="/public/img/cirkelzaag.jpg" alt="cirkelzaag">
         <h2>Een cirkelzaag (of radiaalzaag) is een zaag met een blad in de vorm van 
             een stalen schijf, die met een motor tot een zeer hoog toerental wordt 
             aangedreven. De schijf kan in een zaagtafel zijn gemonteerd waarover het 

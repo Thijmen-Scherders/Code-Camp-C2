@@ -18,7 +18,7 @@
 	<div class="container-column red">
 		<h1>Muse - Madness</h1>
             <div class="container song">
-                  <img src="<?php echo baseUrl() ?>/public/Madness.png" alt="map"/>
+                  <img src="<?php echo baseUrl() ?>/public/img/Madness.png" alt="map"/>
                   <div class="container-column song">
                         <p> 
                         I, I can't get these memories out of my mind

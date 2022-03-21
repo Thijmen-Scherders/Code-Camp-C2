@@ -18,7 +18,7 @@
 	<div class="container-column blue">
 		<h1>Queen - Bohemian Rhapsody </h1>
         <div class="container song">
-            <img src="<?php echo baseUrl() ?>/public/Bohemian.png" alt="map"/>
+            <img src="<?php echo baseUrl() ?>/public/img/Bohemian.png" alt="map"/>
                 <div class="container-column song">
                     <p> 
                         

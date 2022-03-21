@@ -18,7 +18,7 @@
 	<div class="container-column orange">
 		<h1>Muse - Plug in baby</h1>
 		<div class="container song">
-            <img src="<?php echo baseUrl() ?>/public/PlugInBaby.png" alt="map"/>
+            <img src="<?php echo baseUrl() ?>/public/img/PlugInBaby.png" alt="map"/>
                 <div class="container-column song">
 					<p> 
 						I've exposed your lies

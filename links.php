@@ -24,17 +24,17 @@
 
     <div class="link">
         <div class="imdb">
-            <img src="<?php echo baseUrl() ?>/public/imdb.png" alt="map">
+            <img src="<?php echo baseUrl() ?>/public/img/imdb.png" alt="map">
             <a href="https://www.imdb.com/">imdb.com</a>
         </div>
 
         <div class="videoland">
-            <img src="<?php echo baseUrl() ?>/public/videoland.png" alt="map">
+            <img src="<?php echo baseUrl() ?>/public/img/videoland.png" alt="map">
             <a href="https://www.videoland.com/nl/">Videoland</a>
         </div>
 
         <div class="nlfilm">
-        <img src="<?php echo baseUrl() ?>/public/nlfilm.png" alt="map">
+        <img src="<?php echo baseUrl() ?>/public/img/nlfilm.png" alt="map">
         <a href="https://www.film.nl/">Film.nl</a>
         </div>
 

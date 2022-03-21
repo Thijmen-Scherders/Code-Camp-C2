@@ -14,7 +14,7 @@ include_once($path);
 
 	<div class="menu">
 		<a class="logo" href="<?php echo baseUrl() ?>">
-			<img class="logo" src="<?php echo baseUrl() ?>/public/code-camp.png" alt="company-logo"/>
+			<img class="logo" src="<?php echo baseUrl() ?>/public/img/code-camp.png" alt="company-logo"/>
 		</a>
 		<div class="links">
 			<a href="<?php echo baseUrl() ?>/pages/dranken/index.php">Dranken</a>
