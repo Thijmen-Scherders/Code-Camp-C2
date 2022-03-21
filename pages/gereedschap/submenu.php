@@ -8,6 +8,7 @@ include_once($path);
     <div class="container black">
         <a href="<?php echo baseUrl()?>/pages/gereedschap/zagen/kettingzagen/index.php">Kettingzagen</a>
         <a href="<?php echo baseUrl()?>/pages/gereedschap/zagen/cirkelzagen/index.php">Cirkelzagen</a>
+        <a href="<?php echo baseUrl()?>/pages/gereedschap/zagen/handzagen/index.php">Handzagen</a>
         <a href="<?php echo baseUrl()?>/pages/gereedschap/hamers/index.php">Hamers</a>
     </div>
 </div>
