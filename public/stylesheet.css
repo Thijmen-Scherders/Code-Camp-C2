@@ -222,7 +222,7 @@ footer {
 }
 
 .container.song {
-    color: var(--white);
+    color: var(--black);
     border-radius: 15px;
     padding: 0;
     margin: 0;
