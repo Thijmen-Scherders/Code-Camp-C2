@@ -293,3 +293,25 @@ footer {
 .container a{
     text-decoration: underline;
 }
+.schroevendraaier{
+    background-color: #cecece;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 50px;
+}
+.order1{
+    background-color: #9e9e9e;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-radius: 50px;
+}
+.order1 img{
+    margin-top:20px;
+    margin-bottom:20px;
+}
