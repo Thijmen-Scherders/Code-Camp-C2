@@ -16,8 +16,14 @@ include_once($path);
 <?php includeHeader(); ?>
 
 <div class="wrapper">
+<<<<<<< Updated upstream
 	<div class="container black">
 		<a href="#">Item</a>
+=======
+	<div class="container">
+		<a href="koudedranken.php">Koude dranken</a>
+		<a href="warmedranken.php">Warme Dranken</a>
+>>>>>>> Stashed changes
 	</div>
 </div>
 
