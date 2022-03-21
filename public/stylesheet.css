@@ -228,3 +228,23 @@ footer {
     padding-left: 300px;
     margin: 80px;
 }
+.kettingzaag img{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.kettingzaag2 {
+    background-color: #fdeb35;
+    border-radius: 30px;
+    padding: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.kettingzaag3{
+    background-color: #857f5f;
+    border-radius: 30px;
+    padding: 40px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
