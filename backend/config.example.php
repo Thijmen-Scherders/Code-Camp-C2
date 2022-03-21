@@ -5,7 +5,8 @@ $dbName = 'codecamp-c2';
 $dbUser = 'root';
 $dbPass = '';
 
-function baseUrl() {
+function baseUrl(): string
+{
     return 'http://code-camp-c2.test';
 }
 
