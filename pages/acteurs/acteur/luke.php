@@ -19,7 +19,7 @@
 
 <?php includeHeader(); ?>
 
-<div class="wrapper">
+<div class="wrapper green">
 <div class="container">
     <img src="<?php echo baseUrl() ?>/public/luke.jpg" alt="map"/>
     <p class="luke">

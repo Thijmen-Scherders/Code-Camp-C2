@@ -18,6 +18,7 @@ include_once($path);
 <div class="wrapper">
 	<div class="container">
 		<a href="acteur/Roger-Moore.php">Roger Moore</a>
+		<a href="acteur/Timothy-Dalton.php">Timothy Dalton</a>
 		<a href="acteur/Darth.php">Darth Vader</a>
 		<a href="acteur/luke.php">Luke Skywalker</a>
 	</div>
