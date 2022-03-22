@@ -41,5 +41,17 @@ function includeActorsSubMenu()
     include $path .= '/pages/acteurs/submenu.php';
 }
 
+function includeDrinksSubMenu()
+{
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path .= '/pages/dranken/submenu.php';
+}
+
+function includeBooksSubMenu()
+{
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path .= '/pages/boeken/submenu.php';
+}
+
 // Zelf aan passen indien de url anders is!
 
