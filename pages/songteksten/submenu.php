@@ -8,7 +8,7 @@ include_once($path);
 <div class="wrapper">
     <div class="container black">
         <a href="<?php echo baseUrl()?>/pages/songteksten/songs/PlugInBaby.php">Plug in baby</a>
-        <a href="<?php echo baseUrl()?>/pages/songteksten/songs/PlugInBaby2.php">Plug in baby (red)</a>
+        <a href="<?php echo baseUrl()?>/pages/songteksten/songs/Pluginbaby2.php">Plug in baby (red)</a>
         <a href="<?php echo baseUrl()?>/pages/songteksten/songs/queen.php">Bohemian Rhapsody</a>
         <a href="<?php echo baseUrl()?>/pages/songteksten/songs/Transylvania.php">Transylvania</a>
         <a href="<?php echo baseUrl()?>/pages/songteksten/songs/Uprising-Muse.php">Uprising - Muse</a>
