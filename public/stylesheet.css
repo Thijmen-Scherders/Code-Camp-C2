@@ -157,6 +157,10 @@ background: orange;
     background: var(--orange);
 }
 
+.container-column.green {
+    background: lightgreen;
+}
+
 .container-column.blue {
     background: var(--blue);
     color: var(--white);
@@ -314,4 +318,14 @@ footer {
 .order1 img{
     margin-top:20px;
     margin-bottom:20px;
+}
+
+.container-column.redText{
+    color: var(--red);
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }

@@ -17,11 +17,11 @@
 <?php includeSongsSubMenu(); ?>
 
 <div class="wrapper">
-	<div class="container-column orange">
+	<div class="container-column green">
 		<h1>My Baby - Uprising</h1>
             <div class="container song">
                   <img src="<?php echo baseUrl() ?>/public/img/MyBaby.png" alt="map"/>
-                  <div class="container-column song">
+                  <div class="container-column redText">
                         <p> 
                         Allow me in your tub
                         Just allow me in your club

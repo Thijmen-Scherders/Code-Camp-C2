@@ -17,11 +17,11 @@
 <?php includeSongsSubMenu(); ?>
 
 <div class="wrapper">
-	<div class="container-column orange">
+	<div class="container-column green">
 		<h1>Muse - Uprising</h1>
             <div class="container song">
                   <img src="<?php echo baseUrl() ?>/public/img/Muse.png" alt="map"/>
-                  <div class="container-column song">
+                  <div class="container-column redText">
                         <p> 
                         Paranoia is in bloom
                         The PR transmissions will resume
