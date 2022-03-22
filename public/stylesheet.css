@@ -315,3 +315,18 @@ footer {
     margin-top:20px;
     margin-bottom:20px;
 }
+.handzaag {
+    background-color: #c2c2c2;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    border-radius: 7rem;
+}
+
+.order2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
