@@ -21,7 +21,7 @@
 		<h1>Queen - Bohemian Rhapsody </h1>
         <div class="container song">
             <img src="<?php echo baseUrl() ?>/public/img/Bohemian.png" alt="map"/>
-                <div class="container-column song">
+                <div class="container-column whiteText">
                     <p> 
                         
                         Is this the real life?

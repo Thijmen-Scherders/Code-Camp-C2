@@ -330,6 +330,16 @@ footer {
     align-items: flex-start;
 }
 
+.container-column.whiteText{
+    color: var(--white);
+    border-radius: 15px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
 .handzaag {
     background-color: #c2c2c2;
     padding-left: 5rem;
