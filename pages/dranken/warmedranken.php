@@ -16,12 +16,7 @@ include_once($path);
 
 <?php includeHeader(); ?>
 
-<div class="wrapper">
-    <div class="container black">
-        <a href="#">Item 1</a>
-        <a href="#">Item 2</a>
-    </div>
-</div>
+<?php includeDrinksSubMenu(); ?>
 
 <?php includeFooter(); ?>
 

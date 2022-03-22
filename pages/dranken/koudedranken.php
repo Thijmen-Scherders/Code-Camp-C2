@@ -16,6 +16,8 @@ include_once($path);
 
 <?php includeHeader(); ?>
 
+<?php includeDrinksSubMenu(); ?>
+
 <div class="wrapper">
 	<div class="container orange">
 		<div class="wrapperfris">
