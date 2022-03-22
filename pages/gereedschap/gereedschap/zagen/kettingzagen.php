@@ -15,7 +15,7 @@ include_once($path);
 
 <?php includeHeader(); ?>
 
-<?php includeToolsSubMenu(); ?>
+<?php includeZagenSubMenu(); ?>
 
     <div class="kettingzaag">
         <h1>kettingzagen</h1>

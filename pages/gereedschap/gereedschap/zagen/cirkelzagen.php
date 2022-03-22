@@ -15,7 +15,7 @@ include_once($path);
 
 <?php includeHeader(); ?>
 
-<?php includeToolsSubMenu(); ?>
+<?php includeZagenSubMenu(); ?>
 
     <div class="cirkelbox">
         <h1>cirkelzagen</h1>
