@@ -13,6 +13,7 @@
     --white:  white;
     --lightgray:  lightgray;
     --orange:  orange;
+    --purple: purple;
 }
 
 .menu {
@@ -127,6 +128,18 @@
     margin: 30px;
 }
 
+.container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container-row .container-column {
+    width: 33%;
+    justify-content: start;
+}
+
+
 .container-column {
     border-radius: 15px;
     padding: 25px;
@@ -151,6 +164,16 @@
 .container.orange{
 background: orange;
 
+}
+
+.bg-purple {
+    background: var(--purple);
+    color: var(--white);
+}
+
+.bg-grey {
+    background: var(--grey);
+    color: var(--white)
 }
 
 .container-column.orange {
