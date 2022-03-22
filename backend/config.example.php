@@ -56,7 +56,7 @@ function includeBooksSubMenu()
 function includeZagenSubMenu()
 {
     $path = $_SERVER['DOCUMENT_ROOT'];
-    include $path .= '/pages/gereedschap/gereedschap/zagen/submenu.php';
+    include $path .= '/pages/gereedschap/tool/zagen/submenu.php';
 }
 
 // Zelf aan passen indien de url anders is!
