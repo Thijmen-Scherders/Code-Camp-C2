@@ -17,6 +17,10 @@ include_once($path);
 
 <?php includeActorsSubMenu(); ?>
 
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/acteurs/index.php">Acteurs</a>
+</div>
+
 <?php includeFooter(); ?>
 
 </body>

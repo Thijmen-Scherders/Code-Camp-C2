@@ -16,6 +16,16 @@
     --purple: purple;
 }
 
+.kruimelpad {
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    color: white;
+}
+.kruimelpad a {
+    color: white;
+}
+
 .menu {
     max-height: 300px;
     display: flex;

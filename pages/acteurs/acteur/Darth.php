@@ -49,6 +49,12 @@ include_once($path);
 
 	</div>
 </div>
+
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/acteurs/index.php">Acteurs</a> / <a
+			href="<?php echo baseUrl() ?>/pages/acteurs/acteur/Darth.php">Darth Vader</a>
+</div>
+
 <?php includeFooter(); ?>
 </body>
 </html>

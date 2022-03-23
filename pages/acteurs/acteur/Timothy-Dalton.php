@@ -34,7 +34,12 @@
         </div>
 	</div>
 </div>
+
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/acteurs/index.php">Acteurs</a> / <a
+			href="<?php echo baseUrl() ?>/pages/acteurs/acteur/Timothy-Dalton.php">Timothy Dalton</a>
 </div>
+
 <?php includeFooter(); ?>  
 </body>
 
