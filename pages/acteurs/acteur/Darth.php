@@ -23,8 +23,10 @@ include_once($path);
 
 <div class="wrapper yellow">
 	<div class="container black">
+	
 		<img src="<?php echo baseUrl() ?>/public/img/darth.jpg" alt="map"/>
 		<div class="container-column">
+		<h1>Darth Vader</h1>
 			<p class="darth">
 				Darth Vader is a fictional character in the Star Wars franchise. The character is the primary antagonist in
 				the original trilogy and, as Anakin Skywalker, is a primary protagonist in the prequel trilogy. Star Wars
