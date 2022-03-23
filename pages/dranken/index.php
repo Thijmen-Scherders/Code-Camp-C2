@@ -17,6 +17,10 @@ include_once($path);
 
 <?php includeDrinksSubMenu(); ?>
 
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/dranken/index.php">Dranken</a> / Overzicht
+</div>
+
 <?php includeFooter(); ?>
 
 </body>

@@ -62,6 +62,11 @@ include_once($path);
 </div>
 </div>
 
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/dranken/index.php">Draken</a> /
+	<a href="<?php echo baseUrl() ?>/pages/dranken/koudedranken.php">Koude Dranken</a>
+</div>
+
 <?php includeFooter(); ?>
 
 </body>
