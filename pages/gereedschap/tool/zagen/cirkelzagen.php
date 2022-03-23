@@ -39,6 +39,13 @@ include_once($path);
              </p>
         </div>
     </div>
+
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/gereedschap/index.php">Gereedschap</a> /
+	<a href="<?php echo baseUrl() ?>/pages/gereedschap/tool/zagen/index.php">Zagen</a> /
+	<a href="<?php echo baseUrl() ?>/pages/gereedschap/tool/zagen/cirkelzagen.php">Circkelzagen</a>
+</div>
+
     <?php includeFooter(); ?>
 
 </body>
