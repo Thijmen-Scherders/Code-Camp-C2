@@ -328,9 +328,14 @@ footer {
     margin-right: 200px;
     border-radius: 50px;
 }
+.cirkelbox h1{
+    margin-left:3.4rem;
+}
 .cirkelbox img{
     margin-top:20px;
     margin-bottom:20px;
+    max-width: 40rem;
+    height:25rem;
 }
 
 .container a{
@@ -389,10 +394,17 @@ footer {
     margin-right: 15rem;
     border-radius: 7rem;
 }
+.handzaag h1 {
+    margin-left:3.6rem
+}
 
 .order2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+.order2 img{
+    margin-left:3.6rem;
+    max-width:40rem
 }
 
 .Hamer{
