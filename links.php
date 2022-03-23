@@ -25,7 +25,7 @@
     <div class="links">
         <div class="imdb">
             <img src="<?php echo baseUrl() ?>/public/img/imdb.png" alt="foto">
-            <a href="https://www.imdb.com/">imdb.com</a>
+            <a href="https://www.imdb.com/">imdb</a>
         </div>
 
         <div class="videoland">
@@ -35,7 +35,7 @@
 
         <div class="nlfilm">
         <img src="<?php echo baseUrl() ?>/public/img/nlfilm.png" alt="foto">
-        <a href="https://www.film.nl/">Film.nl</a>
+        <a href="https://www.film.nl/">Film</a>
         </div>
 
     </div>
