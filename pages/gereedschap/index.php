@@ -17,6 +17,10 @@ include_once($path);
 
 <?php includeToolsSubMenu() ?>
 
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/gereedschap/index.php">Gereedschap</a> / Overzicht
+</div>
+
 <?php includeFooter(); ?>
 
 </body>

@@ -84,7 +84,10 @@ include_once($path);
 				met een zacht gedeelte. Deze heeft meestal twee gekleurde uiteinden.</h2>
 		</div>
 
-
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/gereedschap/index.php">Gereedschap</a> / <a
+			href="<?php echo baseUrl() ?>/pages/gereedschap/tool/hamers.php">Hamers</a>
+</div>
 
 <?php includeFooter(); ?>
 

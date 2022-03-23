@@ -17,6 +17,12 @@ include_once($path);
 
 <?php includeZagenSubMenu(); ?>
 
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/gereedschap/index.php">Gereedschap</a> /
+	<a href="<?php echo baseUrl() ?>/pages/gereedschap/tool/zagen/index.php">Zagen</a> /
+	<a href="<?php echo baseUrl() ?>/pages/gereedschap/tool/hamers.php">Overzicht</a>
+</div>
+
 <?php includeFooter(); ?>
 
 </body>
