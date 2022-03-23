@@ -76,6 +76,10 @@
 	</div>
 </div>
 
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/songteksten/index.php">Songteksten / Overzicht</a> /
+	<a href="<?php echo baseUrl() ?>/pages/songteksten/songs/Wearethechampions.php">We are the Champions</a>
+</div>
 
 <?php includeFooter(); ?>
 </body>

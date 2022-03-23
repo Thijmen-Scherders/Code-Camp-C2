@@ -76,6 +76,10 @@
 	</div>
 </div>
 
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/songteksten/index.php">Songteksten / Overzicht</a> /
+	<a href="<?php echo baseUrl() ?>/pages/songteksten/songs/Uprising-Muse.php">Muse - Uprising</a>
+</div>
 
 <?php includeFooter(); ?>
 </body>

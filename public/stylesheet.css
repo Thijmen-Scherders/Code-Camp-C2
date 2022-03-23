@@ -181,6 +181,11 @@ background: orange;
     color: var(--white);
 }
 
+.bg-orange {
+    background: var(--orange);
+    color: var(--white);
+}
+
 .bg-grey {
     background: var(--grey);
     color: var(--white)

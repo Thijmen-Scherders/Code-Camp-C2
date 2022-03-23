@@ -66,6 +66,10 @@
 	</div>
 </div>
 
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/songteksten/index.php">Songteksten / Overzicht</a> /
+	<a href="<?php echo baseUrl() ?>/pages/songteksten/songs/PlugInBaby.php">Plug In Baby</a>
+</div>
 
 <?php includeFooter(); ?>
 </body>

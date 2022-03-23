@@ -37,6 +37,12 @@ include_once($path);
 			<p>Thee is een warme drank die wordt gemaakt door infusie van de gedroogde bladeren van de theeplant Camellia sinensis. Alle als thee verkochte producten die niet van deze plant afkomstig zijn (bijvoorbeeld kamillethee of rooibos), zijn dan ook geen echte thee maar kruidenthee.</p>
 		</div>
 	</div>
+
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/dranken/index.php">Draken</a> /
+	<a href="<?php echo baseUrl() ?>/pages/dranken/warmedranken.php">Warme Dranken</a>
+</div>
+
 <?php includeFooter(); ?>
 
 </body>
