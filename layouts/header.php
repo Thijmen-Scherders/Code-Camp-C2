@@ -19,7 +19,7 @@ include_once($path);
 		<div class="menu-links">
 			<a href="<?php echo baseUrl() ?>/pages/dranken/index.php">Dranken</a>
 			<a href="<?php echo baseUrl() ?>/pages/songteksten/index.php"> Songteksten</a>
-			<a href="<?php echo baseUrl() ?>/pages/gereedschap/index.php">Gereedschap</a>
+			<a href="<?php echo baseUrl() ?>/pages/gereedschap/index.php">Gereedschapen</a>
 			<a href="<?php echo baseUrl() ?>/pages/acteurs/index.php">Acteurs</a>
 			<a href="<?php echo baseUrl() ?>/pages/boeken/index.php">Boeken</a>
 		</div>
