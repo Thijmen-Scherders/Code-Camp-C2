@@ -8,7 +8,7 @@ include_once($path);
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
-	<title>cirkelzagen</title>
+	<title>Cirkelzagen</title>
 </head>
 
 <body class="mainpage">
@@ -18,8 +18,9 @@ include_once($path);
 <?php includeZagenSubMenu(); ?>
 
     <div class="cirkelbox">
-        <h1>cirkelzagen</h1>
+        <h1>Cirkelzagen</h1>
         <div class="container-column">
+          
             <img src="/public/img/cirkelzaag.jpg" alt="cirkelzaag">
             <p>Een cirkelzaag (of radiaalzaag) is een zaag met een blad in de vorm van
                 een stalen schijf, die met een motor tot een zeer hoog toerental wordt
