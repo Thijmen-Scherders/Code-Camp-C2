@@ -21,7 +21,7 @@ include_once($path);
 	<div class="container-column black">
 		<h1>Boeken</h1>
 		<p>
-			dit is een boek.
+			Dit is een boek.
 		</p>
 	</div>
 </div>
