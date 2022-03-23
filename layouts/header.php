@@ -22,6 +22,7 @@ include_once($path);
 			<a href="<?php echo baseUrl() ?>/pages/gereedschap/index.php">Gereedschapen</a>
 			<a href="<?php echo baseUrl() ?>/pages/acteurs/index.php">Acteurs</a>
 			<a href="<?php echo baseUrl() ?>/pages/boeken/index.php">Boeken</a>
+			<a href="<?php echo baseUrl() ?>/pages/chatapp/index.php">Help...</a>
 		</div>
 	</div>
 
