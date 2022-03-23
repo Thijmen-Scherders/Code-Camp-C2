@@ -20,7 +20,7 @@ include_once($path);
 <div class="wrapper">
 	<div class="container-column black">
 		<h1>Boeken</h1>
-		.container-column
+	<div class="container-column">
 		<p>
 			Het boek is een veelgebruikte manier om informatie vast te leggen 
 			in de vorm van tekst en afbeeldingen en om deze informatie weer te 
