@@ -93,6 +93,12 @@
                         You wanna try
                     </p>
                 </div>
+                
+        </div>
+        <div class="mp3">
+            <audio controls>
+                <source src="/mp3/killerqueen.mp3" type="audio/mpeg">
+            </audio>
         </div>
 	</div>
 </div>
