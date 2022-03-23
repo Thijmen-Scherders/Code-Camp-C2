@@ -20,6 +20,7 @@ include_once($path);
 <div class="wrapper">
 	<div class="container-column black">
 		<h1>Boeken</h1>
+		.container-column
 		<p>
 			Het boek is een veelgebruikte manier om informatie vast te leggen 
 			in de vorm van tekst en afbeeldingen en om deze informatie weer te 
@@ -28,7 +29,10 @@ include_once($path);
 			samengevoegde hoeveelheid papier met tekst, afbeeldingen of allebei. 
 			Daarnaast wordt met de term de betreffende informatie, of een 
 			soortgelijke verzameling informatie, aangeduid ('een boek schrijven', 
-			'een boek downloaden'). Het woord 'boek' is vermoedelijk afkomstig van 
+			'een boek downloaden'). 
+		</p>
+
+		<p>Het woord 'boek' is vermoedelijk afkomstig van 
 			het Germaanse woord voor beuk, boche. De omslagen van de eerste boeken 
 			werden namelijk gemaakt van een rechthoekig stuk (beuken)hout. Het 
 			Griekse woord biblia (boeken) is het meervoud van biblion dat 
