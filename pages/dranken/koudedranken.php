@@ -18,7 +18,7 @@ include_once($path);
 
 <?php includeDrinksSubMenu(); ?>
 
-<div class="container-row">
+<div class="container-row orange">
 		<div class="container-column koffie bg-grey">
 			<h2>Cola</h2>
 			<img src="/public/img/cola.jpg" alt="cola" width="300px" height="300px">

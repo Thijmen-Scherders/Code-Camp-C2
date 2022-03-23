@@ -182,7 +182,7 @@ background: orange;
 }
 
 .bg-orange {
-    background: var(--orange);
+    background: orange;
     color: var(--white);
 }
 
@@ -425,3 +425,8 @@ footer {
     text-decoration: underline;
     color: var(--white);
 }
+
+.container-row.orange{
+    background: orange;
+    
+    }
