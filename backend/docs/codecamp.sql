@@ -32,18 +32,18 @@ DELETE FROM `books`;
 /*!40000 ALTER TABLE `books` DISABLE KEYS */;
 /*!40000 ALTER TABLE `books` ENABLE KEYS */;
 
--- Structuur van  tabel codecamp.songtexts wordt geschreven
-CREATE TABLE IF NOT EXISTS `songtexts` (
+-- Structuur van  tabel codecamp.lyrics wordt geschreven
+CREATE TABLE IF NOT EXISTS `lyrics` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(50) DEFAULT NULL,
   `text` longtext,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumpen data van tabel codecamp.songtexts: ~0 rows (ongeveer)
-DELETE FROM `songtexts`;
-/*!40000 ALTER TABLE `songtexts` DISABLE KEYS */;
-/*!40000 ALTER TABLE `songtexts` ENABLE KEYS */;
+-- Dumpen data van tabel codecamp.lyrics: ~0 rows (ongeveer)
+DELETE FROM `lyrics`;
+/*!40000 ALTER TABLE `lyrics` DISABLE KEYS */;
+/*!40000 ALTER TABLE `lyrics` ENABLE KEYS */;
 
 -- Structuur van  tabel codecamp.users wordt geschreven
 CREATE TABLE IF NOT EXISTS `users` (
@@ -71,17 +71,17 @@ DELETE FROM `user_book_likes`;
 /*!40000 ALTER TABLE `user_book_likes` DISABLE KEYS */;
 /*!40000 ALTER TABLE `user_book_likes` ENABLE KEYS */;
 
--- Structuur van  tabel codecamp.user_songtexts_likes wordt geschreven
-CREATE TABLE IF NOT EXISTS `user_songtexts_likes` (
+-- Structuur van  tabel codecamp.user_lyrics_likes wordt geschreven
+CREATE TABLE IF NOT EXISTS `user_lyrics_likes` (
   `user_id` int(11) NOT NULL,
-  `songtext_id` int(11) NOT NULL,
+  `lyrics_id` int(11) NOT NULL,
   PRIMARY KEY (`user_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- Dumpen data van tabel codecamp.user_songtexts_likes: ~0 rows (ongeveer)
-DELETE FROM `user_songtexts_likes`;
-/*!40000 ALTER TABLE `user_songtexts_likes` DISABLE KEYS */;
-/*!40000 ALTER TABLE `user_songtexts_likes` ENABLE KEYS */;
+-- Dumpen data van tabel codecamp.user_lyrics_likes: ~0 rows (ongeveer)
+DELETE FROM `user_lyrics_likes`;
+/*!40000 ALTER TABLE `user_lyrics_likes` DISABLE KEYS */;
+/*!40000 ALTER TABLE `user_lyrics_likes` ENABLE KEYS */;
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
