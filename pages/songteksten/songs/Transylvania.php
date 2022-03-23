@@ -18,7 +18,7 @@
 
 <div class="wrapper">
 	<div class="container-column red">
-		<h1>Ironmaiden - Transylvania</h1>
+		<h1>IronMaiden - Transylvania</h1>
 		<div class="container song">
 			<img src="<?php echo baseUrl() ?>/public/img/Transylvania.png" alt="map"/>
 					<p>
