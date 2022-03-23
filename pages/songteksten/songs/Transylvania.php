@@ -22,7 +22,7 @@
 		<div class="container song">
 			<img src="<?php echo baseUrl() ?>/public/img/Transylvania.png" alt="map"/>
 					<p>
-					Instrumentaal nummer
+					Instrumentaal nummer (Geen zang is hierin te bekennen)
 					</p>
 		</div>
 		
