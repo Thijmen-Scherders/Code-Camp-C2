@@ -4,15 +4,15 @@
 }
 
 :root{
-    --red:  red;
+    --red:   #cc0000;
     --grey:  grey;
-    --blue: blue;
-    --green:  green;
+    --blue: #4682b4;
+    --green:  #317f43;
     --yellow:  yellow;
     --black:  black;
     --white:  white;
     --lightgray:  lightgray;
-    --orange:  orange;
+    --orange:  #b97d4b;
     --purple: purple;
 }
 
@@ -20,10 +20,10 @@
     position: fixed;
     bottom: 0;
     z-index: 100;
-    color: white;
+    color: var(--white);
 }
 .kruimelpad a {
-    color: white;
+    color: var(--white);
 }
 
 .menu {
@@ -60,7 +60,7 @@
 }
 
 .contact {
-    background: #222;
+    background: var(--black);
     color: var(--white);
     border-radius: 15px;
     padding: 30px;
@@ -167,7 +167,7 @@
 }
 
 .container-column.black {
-    background: #222;
+    background: var(--black);
     color: var(--white);
 }
 
@@ -215,12 +215,12 @@ background: orange;
 
 .container1{
     background: orangered;
-    color: white;
+    color: var(--white);
     border-radius: 15px;
     padding: 25px;
     margin: 30px;
     height: 25%;
-  }
+}
 
 .logo img {
     width: auto;
@@ -260,7 +260,7 @@ footer {
 }
 
 .container.black {
-    background: #222;
+    background: var(--black);
 }
 
 .container-column h1 {
