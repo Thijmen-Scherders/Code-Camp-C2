@@ -6,6 +6,6 @@ include_once($path);
 
 <div class="wrapper">
 	<div class="container black">
-		<a href="<?php echo baseUrl()?>/pages/boeken/boek/test.php">test</a>
+		<a href="<?php echo baseUrl()?>/pages/boeken/boek/test.php">Test</a>
 	</div>
 </div>
