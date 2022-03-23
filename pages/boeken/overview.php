@@ -11,6 +11,7 @@ $boeken =  getAllBooks()
     <tr>
         <td><?php echo $boek['title']; ?></td>
         <td><?php echo $boek['author']; ?></td>
+        <td><?php echo $boek['description']; ?></td>
         <td><?php echo $boek['pages']; ?></td>
         <td><?php echo $boek['price']; ?></td>
     </tr>
