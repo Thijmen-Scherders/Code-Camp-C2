@@ -25,17 +25,17 @@
     <div class="links">
         <div class="imdb">
             <img src="<?php echo baseUrl() ?>/public/img/imdb.png" alt="foto">
-            <a href="https://www.imdb.com/">imdb</a>
+            <a href="https://www.imdb.com/">imdb.com</a>
         </div>
 
         <div class="videoland">
             <img src="<?php echo baseUrl() ?>/public/img/videoland.png" alt="foto">
-            <a href="https://www.videoland.com/nl/">Videoland</a>
+            <a href="https://www.videoland.com/nl/">Videoland<.nl/a>
         </div>
 
         <div class="nlfilm">
         <img src="<?php echo baseUrl() ?>/public/img/nlfilm.png" alt="foto">
-        <a href="https://www.film.nl/">Film</a>
+        <a href="https://www.film.nl/">Film.nl</a>
         </div>
 
     </div>
