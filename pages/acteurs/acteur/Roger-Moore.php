@@ -19,13 +19,23 @@
 
 <div class="wrapper">
     <div class="container black">
-    <img src="<?php echo baseUrl() ?>/public/img/rogermoore.jpg" alt="map"/>
+        <img src="<?php echo baseUrl() ?>/public/img/rogermoore.jpg" alt="map"/>
         <div class="container-column black">
             <h1>Sir Roger George Moore</h1>
             <p> 
             Sir Roger George Moore KBE (14 October 1927 – 23 May 2017) was an English actor. He was the third actor to portray the fictional British secret agent James Bond in the Eon Productions film series, playing the character in seven feature films between 1973 and 1985. Moore's seven appearances as Bond, from Live and Let Die to A View to a Kill, are the most of any actor in the Eon-produced entries.
             </p> 
             <a href="https://en.wikipedia.org/wiki/Roger_Moore"> read more...</a>
+        </div>
+    </div>
+    <div class="container black">
+        <img src="<?php echo baseUrl() ?>/public/img/bondroger.jpg" alt="map"/>
+        <div class="container-column black">
+            <h1>James Bond</h1>
+            <p>
+            James Bond is a fictional character created by the British journalist and novelist Ian Fleming in 1952. The literary character appeared in a series of twelve novels and two short story collections written by Fleming and a number of continuation novels and spin-off works after Fleming's death in 1964. There have been twenty-seven films in total, produced and released between 1962 and 2021.  
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Portrayal_of_James_Bond_in_film"> read more...</a>
         </div>
     </div>
     <div class="container-column black">
