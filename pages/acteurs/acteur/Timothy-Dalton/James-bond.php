@@ -15,7 +15,7 @@
 <?php includeHeader(); ?>
 
 
-<?php includeActorsSubMenu(); ?>
+<?php includeFilmSubMenu(); ?>
 
 <div class="wrapper green">
     <div class="container black">
