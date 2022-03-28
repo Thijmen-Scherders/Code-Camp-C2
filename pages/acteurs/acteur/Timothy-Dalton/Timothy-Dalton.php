@@ -20,7 +20,7 @@
 
 <?php includeHeader(); ?>
 
-<?php includeActorsSubMenu(); ?>
+<?php includeTimothySubMenu(); ?>
 
 <div class="wrapper green">
     <div class="container black">

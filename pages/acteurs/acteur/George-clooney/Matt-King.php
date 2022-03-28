@@ -20,22 +20,19 @@ include_once($path);
 
 <?php includeHeader(); ?>
 
-<?php includeActorsSubMenu(); ?>
+<?php includeGorgeSubMenu(); ?>
 
 <div class="wrapper">
 	<div class="container black">
-		<img src="<?php echo baseUrl() ?>/public/img/georgeclooney.png" alt="map"/>
+		<img src="<?php echo baseUrl() ?>/public/img/matt.png" alt="map"/>
 		<div class="container-column">
-			<h1>George Timothy Clooney</h1>
+			<h1>Matthew King</h1>
 			<p>
-				George Timothy Clooney (Lexington, Kentucky, 6 mei 1961) is een Amerikaans acteur, regisseur,
-				scenarioschrijver en producent met meer dan dertig filmprijzen en nominaties op zijn naam. Voor de film
-				Syriana won hij een Oscar voor beste mannelijke bijrol. Tevens won hij als producent een Oscar voor
-				beste film voor Argo. Ook kreeg hij Oscarnominaties voor zijn rollen in Michael Clayton en The
-				Descendants, een European Film Award (voor Good Night, and Good Luck) en meerdere Golden Globes (voor
-				Syriana en O Brother, Where Art Thou?).
+                Matthew Thomas King was the second son of Tom and Mary King. He was the most headstrong and manipulative of the four King brothers.
+
+                During his time in Emmerdale, Matthew had relationships with several women and was engaged to Anna De Souza when he died. 
 			</p>
-			<a href="https://nl.wikipedia.org/wiki/George_Clooney"> read more...</a>
+			<a href="https://emmerdale.fandom.com/wiki/Matthew_King"> read more...</a>
 		</div>
 	</div>
 </div>
