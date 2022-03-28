@@ -22,6 +22,19 @@ function createNewBook($title, $author, $description, $pages, $price)
     }
 }
 
+function updateBookById($id, $title, $author, $description, $pages, $price)
+{
+    require_once 'conn.php';
+    try {
+        $query = "UPDATE books SET title='$title', author='$author', description='$description', pages='$pages', price='$price' WHERE id='$id'";
+        $statement = $conn->prepare($query);
+        $statement->execute();
+        echo $statement->rowCount() . " records UPDATED successfully";
+    } catch (PDOException $ex) {
+        return $ex;
+    }
+}
+
 function deleteBookById($id)
 {
     try {
