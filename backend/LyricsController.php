@@ -9,11 +9,11 @@ function getAllLyrics()
     return $statement->fetchAll(PDO::FETCH_ASSOC);
 }
 
-function createNewLyrics($title, $text)
+function createNewLyrics($title, $text, $author)
 {
     require_once 'conn.php';
     try {
-        $query = "INSERT INTO lyrics (title, text) VALUES ('$title', '$text')";
+        $query = "INSERT INTO lyrics (title, 'text', author) VALUES ('$title', '$text', '$author')";
         $statement = $conn->prepare($query);
         $statement->execute();
         echo $statement->rowCount() . " records UPDATED successfully";
@@ -23,11 +23,11 @@ function createNewLyrics($title, $text)
     return false;
 }
 
-function updateLyricsById($id, $title, $text)
+function updateLyricsById($id, $title, $text, $author)
 {
     require_once 'conn.php';
     try {
-        $query = "UPDATE lyrics SET title='$title', text='$text' WHERE id='$id'";
+        $query = "UPDATE lyrics SET title='$title', 'text'='$text', author='$author' WHERE id='$id'";
         $statement = $conn->prepare($query);
         $statement->execute();
         echo $statement->rowCount() . " records UPDATED successfully";
