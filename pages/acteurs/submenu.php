@@ -12,7 +12,6 @@ include_once($path);
         <a href="<?php echo baseUrl(); ?>/pages/acteurs/acteur/Timothy-Dalton/James-bond.php">Timothy Dalton (Film personage)</a>
         <a href="<?php echo baseUrl(); ?>/pages/acteurs/acteur/George-clooney/Georgeclooney.php">George Clooney</a>
         <a href="<?php echo baseUrl(); ?>/pages/acteurs/acteur/George-clooney/Matt-King.php">George Clooney (Film personage)</a>
-        <a href="<?php echo baseUrl(); ?>/pages/acteurs/acteur/Darth.php">Darth Vader</a>
-        <a href="<?php echo baseUrl(); ?>/pages/acteurs/acteur/luke.php">Luke Skywalker</a>
+        <a href="<?php echo baseUrl(); ?>/pages/acteurs/acteur/Darth.php">Film Personages</a>
     </div>
 </div>

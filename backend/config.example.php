@@ -59,5 +59,11 @@ function includeZagenSubMenu()
     include $path .= '/pages/gereedschap/tool/zagen/submenu.php';
 }
 
+function includeFilmSubMenu()
+{
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path .= '/pages/acteurs/subFilm.php';
+}
+
 // Zelf aan passen indien de url anders is!
 

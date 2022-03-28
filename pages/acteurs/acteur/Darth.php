@@ -19,7 +19,7 @@ include_once($path);
 
 <?php includeHeader(); ?>
 
-<?php includeActorsSubMenu(); ?>
+<?php includeFilmSubMenu(); ?>
 
 <div class="wrapper yellow">
 	<div class="container black">
