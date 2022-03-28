@@ -18,7 +18,7 @@
 
     <?php includeHeader(); ?>
     <div class="filtext">
-    <p>Hier vind u verschillende links naar film pagina's</p>
+    
     </div>
 
     <div class="container-column black">
