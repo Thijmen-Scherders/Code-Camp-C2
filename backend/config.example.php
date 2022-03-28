@@ -59,23 +59,5 @@ function includeZagenSubMenu()
     include $path .= '/pages/gereedschap/tool/zagen/submenu.php';
 }
 
-function includeGorgeSubMenu()
-{
-    $path = $_SERVER['DOCUMENT_ROOT'];
-    include $path .= '/pages/acteurs/subGorge.php';
-}
-
-function includeRogerSubMenu()
-{
-    $path = $_SERVER['DOCUMENT_ROOT'];
-    include $path .= '/pages/acteurs/subRoger.php';
-}
-
-function includeTimothySubMenu()
-{
-    $path = $_SERVER['DOCUMENT_ROOT'];
-    include $path .= '/pages/acteurs/subTimothy.php';
-}
-
 // Zelf aan passen indien de url anders is!
 

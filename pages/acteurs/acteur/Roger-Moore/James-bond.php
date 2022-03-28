@@ -15,7 +15,7 @@
 <?php includeHeader(); ?>
 
 
-<?php includeRogerSubMenu(); ?>
+<?php includeActorsSubMenu(); ?>
 
 <div class="wrapper">
     <div class="container black">

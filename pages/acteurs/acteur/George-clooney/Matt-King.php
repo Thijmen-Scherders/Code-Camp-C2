@@ -20,7 +20,7 @@ include_once($path);
 
 <?php includeHeader(); ?>
 
-<?php includeGorgeSubMenu(); ?>
+<?php includeActorsSubMenu(); ?>
 
 <div class="wrapper">
 	<div class="container black">

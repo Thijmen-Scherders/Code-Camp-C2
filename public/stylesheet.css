@@ -441,4 +441,9 @@ footer {
 .container-row.orange{
     background: orange;
     
-    }
+}
+
+.container.black a{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
