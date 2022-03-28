@@ -31,8 +31,8 @@
 </div>
 
 <div class="kruimelpad">
-	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/acteurs/index.php">Acteurs</a> / <a
-			href="<?php echo baseUrl() ?>/pages/acteurs/acteur/Roger-Moore.php">Roger Moore</a>
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/acteurs/Timothy-Dalton/index.php">Acteurs</a> / <a
+			href="<?php echo baseUrl() ?>/pages/acteurs/acteur/Timothy-Dalton/James-bond.php">James bond</a>
 </div>
 
 <?php includeFooter(); ?>

@@ -42,7 +42,7 @@ include_once($path);
 
 <div class="kruimelpad">
 	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/acteurs/index.php">Acteurs</a> / <a
-			href="<?php echo baseUrl() ?>/pages/acteurs/acteur/Georgeclooney.php">George Clooney</a>
+			href="<?php echo baseUrl() ?>/pages/acteurs/acteur/George-clooney/Georgeclooney.php">George Clooney</a>
 </div>
 
 <?php includeFooter(); ?>

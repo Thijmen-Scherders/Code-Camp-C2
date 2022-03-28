@@ -42,7 +42,7 @@
 
 <div class="kruimelpad">
 	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/acteurs/index.php">Acteurs</a> / <a
-			href="<?php echo baseUrl() ?>/pages/acteurs/acteur/Roger-Moore.php">Roger Moore</a>
+			href="<?php echo baseUrl() ?>/pages/acteurs/acteur/Roger-Moore/Roger-Moore.php">Roger Moore</a>
 </div>
 
 <?php includeFooter(); ?>
