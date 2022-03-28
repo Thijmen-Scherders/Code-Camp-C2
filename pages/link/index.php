@@ -30,7 +30,7 @@
 
             <div class="videoland">
                 <img src="<?php echo baseUrl() ?>/public/img/videoland.png" alt="foto">
-                <a href="https://www.videoland.com/nl/">Videoland<.nl/a>
+                <a href="https://www.videoland.com/nl/">Videoland.nl</a>
             </div>
 
             <div class="nlfilm">
