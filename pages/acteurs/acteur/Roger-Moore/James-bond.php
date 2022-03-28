@@ -21,7 +21,7 @@
     <div class="container black">
         <img src="<?php echo baseUrl() ?>/public/img/bondroger.jpg" alt="map"/>
         <div class="container-column black">
-            <h1>James Bond</h1>
+            <h1>James Bond (Roger Moore)</h1>
             <p>
             James Bond is a fictional character created by the British journalist and novelist Ian Fleming in 1952. The literary character appeared in a series of twelve novels and two short story collections written by Fleming and a number of continuation novels and spin-off works after Fleming's death in 1964. There have been twenty-seven films in total, produced and released between 1962 and 2021.  
             </p>
@@ -29,7 +29,7 @@
         </div>
     </div>
     <div class="container-column black">
-        <h1>James bond movies Roger More acted in</h1>
+        <h1>James bond movies Roger Moore acted in</h1>
         <a href="https://en.wikipedia.org/wiki/Live_and_Let_Die_(film)">Live and Let Die	                1973</a>
         <a href="https://en.wikipedia.org/wiki/The_Man_with_the_Golden_Gun_(film)">The Man with the Golden Gun	    1974</a>
         <a href="https://en.wikipedia.org/wiki/The_Spy_Who_Loved_Me_(film)">The Spy Who Loved Me	            1977</a>

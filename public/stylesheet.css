@@ -447,3 +447,6 @@ footer {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+.container.black img{
+    height: 20rem;
+}
