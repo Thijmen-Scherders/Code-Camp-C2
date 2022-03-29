@@ -26,7 +26,7 @@ include_once($path);
 		<div class="contact">
 			<h1>Where can you find us.</h1><br>
 			<h2>Adres:Koestraat 1<br>
-				den Bosch<br>
+				Location:Den Bosch<br>
 				Phone:0882097521<br>
 				Email Addres:iemand@mail.com<br>
 			</h2>
