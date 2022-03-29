@@ -1,0 +1,59 @@
+.overview {
+
+}
+
+.books {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    gap: 10px;
+    justify-items: start;
+
+}
+
+.book {
+    display: flex;
+    flex: 1 0 calc(25% - 10px);
+    max-width: 25%;
+    background-color: grey;
+    color: white;
+}
+
+.book .details {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.book .image {
+    max-width: 116px;
+}
+
+.book .title {
+    display: flex;
+    justify-content: left;
+    font-size: x-large;
+}
+
+.book .author {
+    display: flex;
+    justify-content: left;
+    font-size: large;
+}
+
+.book .description {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.book .pages {
+    display: flex;
+    justify-content: left;
+}
+
+.book .price {
+    display: flex;
+    justify-content: left;
+    justify-self: end;
+}
