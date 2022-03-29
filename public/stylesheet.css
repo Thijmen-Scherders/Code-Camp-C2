@@ -29,6 +29,7 @@
 .menu {
     max-height: 300px;
     display: flex;
+    flex-wrap: wrap;
     background-color: var(--grey);
     padding: 10px;
     margin-bottom: 10px;
@@ -36,21 +37,20 @@
 
 .menu .logo {
     display: flex;
-    max-height: 100px;
-
+    max-width: 500px;
 }
 
 .menu-links {
-    width: 75%;
+    flex: 1 0 calc(20%);
     display: flex;
-    padding: 5px;
+    align-self: center;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .menu-links a {
     background-color: var(--lightgray);
-    padding: 25px;
+    padding: 15px;
     border-radius: 15px;
     font-weight: bolder;
     font-size: 1.2rem;
