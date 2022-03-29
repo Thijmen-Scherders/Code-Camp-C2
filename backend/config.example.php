@@ -65,5 +65,11 @@ function includeFilmSubMenu()
     include $path .= '/pages/acteurs/subFilm.php';
 }
 
+function includeActeurSubMenu()
+{
+    $path = $_SERVER['DOCUMENT_ROOT'];
+    include $path .= '/pages/acteurs/subActeur.php';
+}
+
 // Zelf aan passen indien de url anders is!
 
