@@ -15,7 +15,7 @@ $boek = getBookById($query['id']);
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/books.css">
-	<meta http-equiv="refresh" content="1">
+<!--	<meta http-equiv="refresh" content="1">-->
 	<title>Boeken</title>
 </head>
 
