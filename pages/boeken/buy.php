@@ -34,3 +34,9 @@ $book = getBookById($query['id'])
 		</div>
 	</div>
 </div>
+
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/boeken/buy.php">Boeken</a> / Buy book
+</div>
+
+<?php includeFooter(); ?>
