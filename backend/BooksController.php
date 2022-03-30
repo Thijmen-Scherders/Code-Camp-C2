@@ -1,5 +1,22 @@
 <?php
 
+$path = $_SERVER['DOCUMENT_ROOT'];
+$config = $path."/backend/config.php";
+include_once($config);
+
+if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['updateBook'])) {
+    $id = $_POST['id'];
+    $title = $_POST['title'];
+    $author = $_POST['author'];
+    $description = $_POST['description'];
+    $pages = $_POST['pages'];
+    $price = $_POST['price'];
+    $image_url = $_POST['image_url'];
+    updateBookById($id, $title, $author, $description, $pages, $price, $image_url);
+    header("Location: " . baseUrl() . "/pages/boeken/edit/overview.php");
+    exit();
+}
+
 function getAllBooks()
 {
     require_once 'conn.php';
@@ -11,7 +28,7 @@ function getAllBooks()
 
 function getBookById($id) {
     require_once 'conn.php';
-    $query = "SELECT title, author, description, pages, price, image_url  FROM books WHERE id='$id'";
+    $query = "SELECT id, title, author, description, pages, price, image_url  FROM books WHERE id='$id'";
     $statement = $conn->prepare($query);
     $statement->execute();
     return $statement->fetch(PDO::FETCH_ASSOC);
@@ -39,7 +56,7 @@ function updateBookById($id, $title, $author, $description, $pages, $price, $ima
         $statement->execute();
         echo $statement->rowCount() . " records UPDATED successfully";
     } catch (PDOException $ex) {
-        return $ex;
+        echo $ex;
     }
 }
 
