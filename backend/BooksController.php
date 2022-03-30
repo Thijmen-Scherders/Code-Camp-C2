@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['updateBook'])) {
     $price = $_POST['price'];
     $image_url = $_POST['image_url'];
     updateBookById($id, $title, $author, $description, $pages, $price, $image_url);
-    header("Location: " . baseUrl() . "/pages/boeken/edit/overview.php");
+    header("Location: " . baseUrl() . "/pages/boeken/edit/index.php");
     exit();
 }
 
@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['createBook'])) {
     $price = $_POST['price'];
     $image_url = $_POST['image_url'];
     createNewBook($title, $author, $description, $pages, $price, $image_url);
-    header("Location: " . baseUrl() . "/pages/boeken/edit/overview.php");
+    header("Location: " . baseUrl() . "/pages/boeken/edit/index.php");
     exit();
 }
 

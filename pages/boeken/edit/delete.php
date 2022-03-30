@@ -10,5 +10,5 @@ parse_str($parts['query'], $query);
 
 deleteBookById($query['id']);
 
-header("Location: ".baseUrl()."/pages/boeken/edit/overview.php");
+header("Location: ".baseUrl()."/pages/boeken/edit/index.php");
 exit();
