@@ -11,7 +11,7 @@ $boeken = getAllBooks()
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/books.css">
-	<meta http-equiv="refresh" content="1">
+<!--	<meta http-equiv="refresh" content="1">-->
 	<title>Boeken</title>
 </head>
 
@@ -29,7 +29,8 @@ $boeken = getAllBooks()
 					<p class="description">Description: <?php echo $boek['description']; ?></p>
 					<p class="pages">Pages: <?php echo $boek['pages']; ?></p>
 					<p class="price">Price: $<?php echo $boek['price']; ?></p>
-					<a href="edit.php?id=<?php echo $boek['id'] ?>">Edit</a>
+					<a href="edit.php?id=<?php echo $boek['id'] ?>">Edit book</a>
+					<a href="delete.php?id=<?php echo $boek['id'] ?>">Delete Book</a>
 				</div>
 			</div>
         <?php endforeach; ?>
