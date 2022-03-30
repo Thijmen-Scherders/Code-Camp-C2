@@ -40,7 +40,7 @@ function getAllBooks()
 
 function getBookById($id) {
     require_once 'conn.php';
-    $query = "SELECT id, title, author, description, pages, price, image_url  FROM books WHERE id='$id'";
+    $query = "SELECT id, likes, title, author, description, pages, price, image_url  FROM books WHERE id='$id'";
     $statement = $conn->prepare($query);
     $statement->execute();
     return $statement->fetch(PDO::FETCH_ASSOC);

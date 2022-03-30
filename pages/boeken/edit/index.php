@@ -29,6 +29,7 @@ $books = getAllBooks()
 					<p class="description">Description: <?php echo $book['description']; ?></p>
 					<p class="pages">Pages: <?php echo $book['pages']; ?></p>
 					<p class="price">Price: $<?php echo $book['price']; ?></p>
+					<p class="likes">Likes: <?php echo $book['likes']; ?></p>
 					<a href="edit.php?id=<?php echo $book['id'] ?>">Edit book</a>
 					<a href="delete.php?id=<?php echo $book['id']?> " onclick="return  confirm('do you want to delete Y/N')">Delete </a>
 				</div>

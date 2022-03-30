@@ -27,6 +27,7 @@ $books = getAllBooks()
 					<p class="description">Description: <?php echo $book['description']; ?></p>
 					<p class="pages">Pages: <?php echo $book['pages']; ?></p>
 					<p class="price">Price: $<?php echo $book['price']; ?></p>
+					<p class="likes">Likes: <?php echo $book['likes']; ?></p>
 
 				</div>
 			</div>
