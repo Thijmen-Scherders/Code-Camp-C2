@@ -47,12 +47,6 @@ function includeDrinksSubMenu()
     include $path .= '/pages/dranken/submenu.php';
 }
 
-function includeBooksSubMenu()
-{
-    $path = $_SERVER['DOCUMENT_ROOT'];
-    include $path .= '/pages/boeken/submenu.php';
-}
-
 function includeZagenSubMenu()
 {
     $path = $_SERVER['DOCUMENT_ROOT'];
