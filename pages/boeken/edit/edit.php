@@ -60,3 +60,10 @@ $book = getBookById($query['id']);
 	</div>
 </div>
 
+
+
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/boeken/edit/edit.php">Boeken</a> / Edit / Edit Book
+</div>
+
+<?php includeFooter(); ?>
