@@ -23,7 +23,7 @@ include_once($path);
 			<img src="/public/img/koffie.jpg" alt="koffie"/>
 			<p>Koffie is een meestal warm genuttigde drank, die wordt bereid op basis van water en gedroogde en gebrande pitten van de koffieplant (Coffea spp.) die vanwege hun vorm koffiebonen worden genoemd. Koffie bevat het stimulerende middel cafeïne.[1][2] De meeste soorten in het geslacht Coffea komen van nature voor in tropisch Afrika en op de eilanden in de Indische Oceaan. Ze vinden hun oorsprong in Ethiopië, Jemen en Soedan.</p>
 			<div class="link-fix">
-				<a href="<?php echo baseUrl()?>/pages/acteurs/acteur/Georgeclooney.php">George Clooney</a>
+				<a href="<?php echo baseUrl()?>/pages/acteurs/acteur/George-clooney/Georgeclooney.php">George Clooney</a>
 			</div>
 		</div>
 		<div class="container-column latte bg-grey">

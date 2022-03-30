@@ -24,7 +24,7 @@ include_once($path);
 			<img src="/public/img/cola.jpg" alt="cola" width="300px" height="300px">
 			<p>Cola is een koolzuurhoudende frisdrank. Het smaakt zoet (maar is qua pH zuur) en bevat circa 28-32 mg cafeïne per 33 cl. Andere belangrijke ingrediënten zijn vanille, kaneel, karamel en citroen.</p>
 			<div class="link-fix">
-			<a href="<?php echo baseUrl() ?>/pages/acteurs/acteur/Roger-Moore.php">Roger Moore</a>
+			<a href="<?php echo baseUrl() ?>/pages/acteurs/acteur/Roger-Moore/Roger-Moore.php">Roger Moore</a>
 			</div>
 		</div>
 		<div class="container-column latte bg-grey">
