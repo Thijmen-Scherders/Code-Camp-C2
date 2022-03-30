@@ -3,7 +3,7 @@ $path = $_SERVER['DOCUMENT_ROOT'];
 $config = $path . "/backend/config.php";
 include_once($config);
 include_once($path . "/backend/BooksController.php");
-$boeken = getAllBooks()
+$books = getAllBooks()
 ?>
 
 <!DOCTYPE html>
@@ -20,17 +20,17 @@ $boeken = getAllBooks()
 <div class="overview">
 	<div class="books">
 
-        <?php foreach ($boeken as $boek): ?>
+        <?php foreach ($books as $book): ?>
 			<div class="book">
-				<img class="image" src="<?php echo $boek['image_url'] ?>" alt="book image"/>
+				<img class="image" src="<?php echo $book['image_url'] ?>" alt="book image"/>
 				<div class="details">
-					<p class="title"><?php echo $boek['title']; ?></p>
-					<p class="author">Author: <?php echo $boek['author']; ?></p>
-					<p class="description">Description: <?php echo $boek['description']; ?></p>
-					<p class="pages">Pages: <?php echo $boek['pages']; ?></p>
-					<p class="price">Price: $<?php echo $boek['price']; ?></p>
-					<a href="edit.php?id=<?php echo $boek['id'] ?>">Edit book</a>
-					<a href="delete.php?id=<?php echo $boek['id'] ?>">Delete Book</a>
+					<p class="title"><?php echo $book['title']; ?></p>
+					<p class="author">Author: <?php echo $book['author']; ?></p>
+					<p class="description">Description: <?php echo $book['description']; ?></p>
+					<p class="pages">Pages: <?php echo $book['pages']; ?></p>
+					<p class="price">Price: $<?php echo $book['price']; ?></p>
+					<a href="edit.php?id=<?php echo $book['id'] ?>">Edit book</a>
+					<a href="delete.php?id=<?php echo $book['id']?> " onclick="return  confirm('do you want to delete Y/N')">Delete </a>
 				</div>
 			</div>
         <?php endforeach; ?>
