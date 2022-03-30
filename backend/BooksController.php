@@ -17,6 +17,18 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['updateBook'])) {
     exit();
 }
 
+if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['createBook'])) {
+    $title = $_POST['title'];
+    $author = $_POST['author'];
+    $description = $_POST['description'];
+    $pages = $_POST['pages'];
+    $price = $_POST['price'];
+    $image_url = $_POST['image_url'];
+    createNewBook($title, $author, $description, $pages, $price, $image_url);
+    header("Location: " . baseUrl() . "/pages/boeken/edit/overview.php");
+    exit();
+}
+
 function getAllBooks()
 {
     require_once 'conn.php';
