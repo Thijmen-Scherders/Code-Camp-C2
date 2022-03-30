@@ -36,3 +36,10 @@ $books = getAllBooks()
         <?php endforeach; ?>
 	</div>
 </div>
+
+
+<div class="kruimelpad">
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/boeken/index.php">Boeken</a> / Overzicht
+</div>
+
+<?php includeFooter(); ?>
