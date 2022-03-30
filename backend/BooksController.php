@@ -17,11 +17,11 @@ function getBookById($id) {
     return $statement->fetch(PDO::FETCH_ASSOC);
 }
 
-function createNewBook($title, $author, $description, $pages, $price)
+function createNewBook($title, $author, $description, $pages, $price, $image_url)
 {
     require_once 'conn.php';
     try {
-        $query = "INSERT INTO books (title, author, description, pages, price) VALUES ('$title', '$author', '$description', '$pages', '$price')";
+        $query = "INSERT INTO books (title, author, description, pages, price, image_url) VALUES ('$title', '$author', '$description', '$pages', '$price', '$image_url')";
         $statement = $conn->prepare($query);
         $statement->execute();
         return true;
@@ -30,11 +30,11 @@ function createNewBook($title, $author, $description, $pages, $price)
     }
 }
 
-function updateBookById($id, $title, $author, $description, $pages, $price)
+function updateBookById($id, $title, $author, $description, $pages, $price, $image_url)
 {
     require_once 'conn.php';
     try {
-        $query = "UPDATE books SET title='$title', author='$author', description='$description', pages='$pages', price='$price' WHERE id='$id'";
+        $query = "UPDATE books SET title='$title', author='$author', description='$description', pages='$pages', price='$price', image_url='$image_url' WHERE id='$id'";
         $statement = $conn->prepare($query);
         $statement->execute();
         echo $statement->rowCount() . " records UPDATED successfully";
