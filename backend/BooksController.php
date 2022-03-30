@@ -46,6 +46,13 @@ function getBookById($id) {
     return $statement->fetch(PDO::FETCH_ASSOC);
 }
 
+function incrementBookLikesByOne($id) {
+    require_once 'conn.php';
+    $query = "UPDATE books SET likes=likes + 1 WHERE id='$id'";
+    $statement = $conn->prepare($query);
+    $statement->execute();
+}
+
 function createNewBook($title, $author, $description, $pages, $price, $image_url)
 {
     require_once 'conn.php';

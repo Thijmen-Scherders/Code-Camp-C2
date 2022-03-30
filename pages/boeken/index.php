@@ -28,6 +28,7 @@ $books = getAllBooks()
 					<p class="pages">Pages: <?php echo $book['pages']; ?></p>
 					<p class="price">Price: $<?php echo $book['price']; ?></p>
 					<p class="likes">Likes: <?php echo $book['likes']; ?></p>
+					<a href="like.php?id=<?php echo $book['id']?>" onclick="return confirm('Are you sure you want to like this book? Y/N')">Add like </a>
 
 				</div>
 			</div>
