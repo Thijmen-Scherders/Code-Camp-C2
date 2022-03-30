@@ -7,7 +7,7 @@ include_once($path);
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Code Camp C2</title>
+	<title>Code-Camp-C2</title>
 </head>
 
 <header>
