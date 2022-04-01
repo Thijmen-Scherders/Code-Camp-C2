@@ -10,5 +10,5 @@ parse_str($parts['query'], $query);
 
 deleteLyricsById($query['id']);
 
-header("Location: ".baseUrl()."/pages/songteksten/edit.php");
+header("Location: ".baseUrl()."/pages/songteksten/edit/index.php");
 exit();
