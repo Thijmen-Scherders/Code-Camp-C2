@@ -18,8 +18,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['updateLyric'])) {
         echo $ex;
         return;
     }
-//    header("Location: " . baseUrl() . "/pages/songteksten/edit/index.php");
-//    exit();
+    header("Location: " . baseUrl() . "/pages/songteksten/edit/index.php");
+    exit();
 }
 
 if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['createLyric'])) {
