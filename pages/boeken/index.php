@@ -17,7 +17,11 @@ $books = getAllBooks()
 <?php includeHeader(); ?>
 
 <div class="overview">
-	<a href="edit/index.php">Goto the books admin panel</a>
+	<?php
+	if(isset($_SESSION['uname'])) {
+        echo "<a href='edit/index.php'>Goto the books admin panel</a>";
+    }
+	?>
 	<div class="books">
         <?php foreach ($books as $book): ?>
 			<div class="book">

@@ -17,7 +17,11 @@ $lyrics = getAllLyricsOverview()
 <?php includeHeader(); ?>
 
 <div class="overview">
-	<a href="edit/index.php">Goto the lyrics admin panel</a>
+	<?php
+	if(isset($_SESSION['uname'])) {
+	echo "<a href='edit/index.php'>Goto the lyrics admin panel</a>";
+	}
+	?>
 
 	<div class="lyrics">
 
