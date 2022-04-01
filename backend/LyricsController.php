@@ -9,10 +9,18 @@ function getAllLyrics()
     return $statement->fetchAll(PDO::FETCH_ASSOC);
 }
 
+function getLyricById($id) {
+    require_once 'conn.php';
+    $query = "SELECT id, title, 'text', author, background_color, image_url, mp3_url  FROM lyrics WHERE id='$id'";
+    $statement = $conn->prepare($query);
+    $statement->execute();
+    return $statement->fetch(PDO::FETCH_ASSOC);
+}
+
 function getAllLyricTitles()
 {
     require_once 'conn.php';
-    $query = "SELECT title FROM lyrics";
+    $query = "SELECT title, author, image_url FROM lyrics";
     $statement = $conn->prepare($query);
     $statement->execute();
     return $statement->fetchAll(PDO::FETCH_ASSOC);
