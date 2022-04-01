@@ -17,7 +17,6 @@ $lyric = getLyricById($query['id']);
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/lyrics.css">
-<!--	<meta http-equiv="refresh" content="1"/>-->
 	<title>Lyric - Edit</title>
 </head>
 
