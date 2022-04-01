@@ -83,7 +83,7 @@ function getAllLyricTitles()
     return $statement->fetchAll(PDO::FETCH_ASSOC);
 }
 
-function createNewLyrics($title, $text, $author, $background_color, $image_url, $mp3_url)
+function createNewLyrics($title, $text, $author, $background_color, $image_url, $mp3_url): bool
 {
     require_once 'conn.php';
     try {
@@ -94,7 +94,7 @@ function createNewLyrics($title, $text, $author, $background_color, $image_url, 
         return true;
     } catch (PDOException $ex) {
         echo $ex;
-//        return false;
+        return false;
     }
 }
 

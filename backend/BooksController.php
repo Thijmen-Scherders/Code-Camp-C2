@@ -59,12 +59,14 @@ function createNewBook($title, $author, $description, $pages, $price, $image_url
 {
     require_once 'conn.php';
     try {
-        $query = "INSERT INTO books (title, author, description, pages, price, image_url) VALUES ('$title', '$author', '$description', '$pages', '$price', '$image_url')";
+        $query = "INSERT INTO books (title, author, `description`, pages, price, image_url) VALUES (?,?,?,?,?,?)";
         $statement = $conn->prepare($query);
-        $statement->execute();
+        $statement->execute(array($$title, $author, $description, $pages, $price, $image_url));
+        echo $statement->rowCount() . " records UPDATED successfully";
         return true;
     } catch (PDOException $ex) {
-        return $ex;
+        echo $ex;
+        return false;
     }
 }
 
@@ -72,13 +74,14 @@ function updateBookById($id, $title, $author, $description, $pages, $price, $ima
 {
     require_once 'conn.php';
     try {
-        $query = "UPDATE books SET title='$title', author='$author', description='$description', pages='$pages', price='$price', image_url='$image_url' WHERE id='$id'";
+        $query = "UPDATE books SET title=?, author=?, `description`=?, pages=?, price=?, image_url = ? WHERE id='$id'";
         $statement = $conn->prepare($query);
-        $statement->execute();
+        $statement->execute(array($id, $title, $author, $description, $pages, $price, $image_url));
         echo $statement->rowCount() . " records UPDATED successfully";
     } catch (PDOException $ex) {
-        echo $ex;
+        return $ex;
     }
+    return false;
 }
 
 function deleteBookById($id)
