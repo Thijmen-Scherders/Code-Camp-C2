@@ -12,7 +12,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['updateBook'])) {
     $pages = $_POST['pages'];
     $price = $_POST['price'];
     $image_url = $_POST['image_url'];
+    try {
     updateBookById($id, $title, $author, $description, $pages, $price, $image_url);
+    } catch (Exception $ex) {
+        echo $ex;
+        return;
+    }
     header("Location: " . baseUrl() . "/pages/boeken/edit/index.php");
     exit();
 }
@@ -24,9 +29,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['createBook'])) {
     $pages = $_POST['pages'];
     $price = $_POST['price'];
     $image_url = $_POST['image_url'];
+    try {
     createNewBook($title, $author, $description, $pages, $price, $image_url);
-    header("Location: " . baseUrl() . "/pages/boeken/edit/index.php");
-    exit();
+    } catch (Exception $ex) {
+        echo $ex;
+        return;
+    }
+//    header("Location: " . baseUrl() . "/pages/boeken/edit/index.php");
+//    exit();
 }
 
 function getAllBooks()
@@ -55,13 +65,13 @@ function incrementBookLikesByOne($id)
     $statement->execute();
 }
 
-function createNewBook($title, $author, $description, $pages, $price, $image_url)
+function createNewBook($title, $author, $description, $pages, $price, $image_url): bool
 {
     require_once 'conn.php';
     try {
         $query = "INSERT INTO books (title, author, `description`, pages, price, image_url) VALUES (?,?,?,?,?,?)";
         $statement = $conn->prepare($query);
-        $statement->execute(array($$title, $author, $description, $pages, $price, $image_url));
+        $statement->execute(array($title, $author, $description, $pages, $price, $image_url));
         echo $statement->rowCount() . " records UPDATED successfully";
         return true;
     } catch (PDOException $ex) {
