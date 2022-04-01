@@ -11,7 +11,6 @@ $lyrics = getAllLyrics()
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/lyrics.css">
-	<meta http-equiv="refresh" content="1">
 	<title>Lyrics Edit Overview</title>
 </head>
 
