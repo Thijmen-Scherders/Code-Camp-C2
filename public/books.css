@@ -15,8 +15,8 @@
 }
 
 .single .book .image {
-    width: 40%;
-    max-width: 300px;
+    width: 50%;
+    /*max-width: 300px;*/
 }
 
 .single .book .details {
@@ -39,9 +39,9 @@
 
 }
 
-.overview .book {
+.book {
     display: flex;
-    flex: 1 0 calc(25% - 10px);
+    flex: 1 0 calc(50% - 10px);
     /*width: 500px;*/
     /*max-width: 25%;*/
     background-color: grey;
@@ -55,7 +55,7 @@
 }
 
 .overview .book .image {
-    max-width: 116px;
+    max-width: 300px;
 }
 
 .overview .book .title {
