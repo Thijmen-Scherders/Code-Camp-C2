@@ -11,6 +11,10 @@
     width: 75%;
 }
 
+.lyric .details {
+    padding-bottom: 25px;
+}
+
 .single .lyric .details {
     display: flex;
     flex-direction: column;
