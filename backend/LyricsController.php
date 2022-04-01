@@ -28,9 +28,10 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['createLyric'])) {
         createNewLyrics($title, $text, $author, $background_color, $image_url, $mp3_url);
     } catch (Exception $ex) {
         echo $ex;
+        return;
     }
-//    header("Location: " . baseUrl() . "/pages/songteksten/edit/index.php");
-//    exit();
+    header("Location: " . baseUrl() . "/pages/songteksten/edit/index.php");
+    exit();
 }
 
 function getAllLyrics()
