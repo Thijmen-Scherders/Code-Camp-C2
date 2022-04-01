@@ -45,7 +45,7 @@ endforeach;
 
 			<img class="image" src="<?php echo $lyricDetail['image_url'] ?>" alt="book image"/>
 			<div class="container-column">
-			<?php echo $lyricDetail['text'] ?>
+                <?php echo $lyricDetail['text'] ?>
 			</div>
 		</div>
 	</div>
