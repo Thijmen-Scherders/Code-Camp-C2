@@ -24,9 +24,13 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['createLyric'])) {
     $background_color = $_POST['background_color'];
     $image_url = $_POST['image_url'];
     $mp3_url = $_POST['mp3_url'];
-    createNewLyrics($title, $text, $author, $background_color, $image_url, $mp3_url);
-    header("Location: " . baseUrl() . "/pages/songteksten/edit/index.php");
-    exit();
+    try {
+        createNewLyrics($title, $text, $author, $background_color, $image_url, $mp3_url);
+    } catch (Exception $ex) {
+        echo $ex;
+    }
+//    header("Location: " . baseUrl() . "/pages/songteksten/edit/index.php");
+//    exit();
 }
 
 function getAllLyrics()
@@ -41,7 +45,7 @@ function getAllLyrics()
 function getLyricById($id)
 {
     require_once 'conn.php';
-    $query = "SELECT id, title, 'text', author, background_color, image_url, mp3_url  FROM lyrics WHERE id='$id'";
+    $query = "SELECT id, title, `text`, author, background_color, image_url, mp3_url  FROM lyrics WHERE id='$id'";
     $statement = $conn->prepare($query);
     $statement->execute();
     return $statement->fetch(PDO::FETCH_ASSOC);
@@ -69,21 +73,22 @@ function createNewLyrics($title, $text, $author, $background_color, $image_url, 
 {
     require_once 'conn.php';
     try {
-        $query = "INSERT INTO lyrics (title, 'text', author, background_color, image_url, mp3_url) VALUES ('$title', '$text', '$author', '$background_color', '$image_url', '$mp3_url')";
+        $query = "INSERT INTO lyrics (title, `text`, author, background_color, image_url, mp3_url) VALUES ('$title', '$text', '$author', '$background_color', '$image_url', '$mp3_url')";
         $statement = $conn->prepare($query);
         $statement->execute();
         echo $statement->rowCount() . " records UPDATED successfully";
+        return true;
     } catch (PDOException $ex) {
-        return $ex;
+        echo $ex;
+        return false;
     }
-    return false;
 }
 
 function updateLyricsById($id, $title, $text, $author, $background_color, $image_url, $mp3_url)
 {
     require_once 'conn.php';
     try {
-        $query = "UPDATE lyrics SET title='$title', 'text'='$text', author='$author', background_color='$background_color', image_url='$image_url', mp3_url = '$mp3_url' WHERE id='$id'";
+        $query = "UPDATE lyrics SET title='$title', `text`='$text', author='$author', background_color='$background_color', image_url='$image_url', mp3_url = '$mp3_url' WHERE id='$id'";
         $statement = $conn->prepare($query);
         $statement->execute();
         echo $statement->rowCount() . " records UPDATED successfully";
