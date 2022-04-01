@@ -19,8 +19,8 @@ include_once($path . "/backend/BooksController.php");
 <?php
 
 // Check user login or not
-if(!isset($_SESSION['uname'])){
-    header('Location: '.baseUrl()."/auth/login.php");
+if (!isset($_SESSION['uname'])) {
+    header('Location: ' . baseUrl() . "/auth/login.php");
 }
 
 ?>

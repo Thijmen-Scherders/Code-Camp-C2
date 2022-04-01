@@ -11,8 +11,8 @@ parse_str($parts['query'], $query);
 $book = getBookById($query['id'])
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
+	<!DOCTYPE html>
+	<html lang="en">
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/books.css">

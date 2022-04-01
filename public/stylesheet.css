@@ -3,16 +3,16 @@
     padding: 0;
 }
 
-:root{
-    --red:   #cc0000;
-    --grey:  grey;
+:root {
+    --red: #cc0000;
+    --grey: grey;
     --blue: #4682b4;
-    --green:  #317f43;
-    --yellow:  yellow;
-    --black:  black;
-    --white:  white;
-    --lightgray:  lightgray;
-    --orange:  #b97d4b;
+    --green: #317f43;
+    --yellow: yellow;
+    --black: black;
+    --white: white;
+    --lightgray: lightgray;
+    --orange: #b97d4b;
     --purple: purple;
 }
 
@@ -22,6 +22,7 @@
     z-index: 100;
     color: var(--white);
 }
+
 .kruimelpad a {
     color: var(--white);
 }
@@ -126,7 +127,7 @@
 
 .luke {
     grid-area: luke;
-    
+
 }
 
 .container {
@@ -171,8 +172,8 @@
     color: var(--white);
 }
 
-.container.orange{
-background: orange;
+.container.orange {
+    background: orange;
 
 }
 
@@ -218,7 +219,7 @@ background: orange;
     color: var(--white);
 }
 
-.container1{
+.container1 {
     background: orangered;
     color: var(--white);
     border-radius: 15px;
@@ -288,7 +289,8 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
 }
-.kettingzaag{
+
+.kettingzaag {
     background-color: #dadada;
     border-radius: 60px;
     padding-top: 20px;
@@ -298,10 +300,12 @@ footer {
     margin-left: 12rem;
     margin-right: 12rem;
 }
-.kettingzaag img{
-    margin-top:10px;
-    margin-bottom:10px;
+
+.kettingzaag img {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 .kettingzaag2 {
     background-color: #bbbbbb;
     border-radius: 30px;
@@ -310,7 +314,8 @@ footer {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.kettingzaag3{
+
+.kettingzaag3 {
     background-color: #bbbbbb;
     border-radius: 30px;
     padding: 40px;
@@ -318,7 +323,8 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.cirkelbox{
+
+.cirkelbox {
     background-color: #cecece;
     padding-left: 60px;
     padding-right: 60px;
@@ -327,21 +333,24 @@ footer {
     margin-left: 200px;
     margin-right: 200px;
     border-radius: 50px;
-}
-.cirkelbox h1{
-    margin-left:3.4rem;
-}
-.cirkelbox img{
-    margin-top:20px;
-    margin-bottom:20px;
-    max-width: 40rem;
-    height:25rem;
 }
 
-.container a{
+.cirkelbox h1 {
+    margin-left: 3.4rem;
+}
+
+.cirkelbox img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 40rem;
+    height: 25rem;
+}
+
+.container a {
     text-decoration: underline;
 }
-.schroevendraaier{
+
+.schroevendraaier {
     background-color: #cecece;
     padding-left: 60px;
     padding-right: 60px;
@@ -351,7 +360,8 @@ footer {
     margin-right: 200px;
     border-radius: 50px;
 }
-.order1{
+
+.order1 {
     background-color: #9e9e9e;
     padding-left: 60px;
     padding-right: 60px;
@@ -359,12 +369,13 @@ footer {
     padding-top: 50px;
     border-radius: 50px;
 }
-.order1 img{
-    margin-top:20px;
-    margin-bottom:20px;
+
+.order1 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.container-column.redText{
+.container-column.redText {
     color: var(--red);
     border-radius: 15px;
     padding: 0;
@@ -374,7 +385,7 @@ footer {
     align-items: flex-start;
 }
 
-.container-column.whiteText{
+.container-column.whiteText {
     color: var(--white);
     border-radius: 15px;
     padding: 0;
@@ -394,20 +405,22 @@ footer {
     margin-right: 15rem;
     border-radius: 7rem;
 }
+
 .handzaag h1 {
-    margin-left:3.6rem
+    margin-left: 3.6rem
 }
 
 .order2 {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.order2 img{
-    margin-left:3.6rem;
-    max-width:40rem
+
+.order2 img {
+    margin-left: 3.6rem;
+    max-width: 40rem
 }
 
-.Hamer{
+.Hamer {
     background-color: #d3d3d3;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -417,42 +430,47 @@ footer {
     margin-right: 12rem;
     border-radius: 6rem;
 }
-.Hamer h1{
+
+.Hamer h1 {
     padding-bottom: 1rem;
 }
-.Hamer h2{
+
+.Hamer h2 {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.Hamer img{
+
+.Hamer img {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.kopje h2{
+
+.kopje h2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
-.link-fix a{
+.link-fix a {
     text-decoration: underline;
     color: var(--white);
 }
 
-.container-row.orange{
+.container-row.orange {
     background: orange;
-    
+
 }
 
-.container.black a{
+.container.black a {
     margin-left: 1rem;
     margin-right: 1rem;
 }
-.container.black img{
+
+.container.black img {
     height: 20rem;
 }
 
-.datum_tijd{
+.datum_tijd {
     display: flex;
     justify-content: center;
-    
+
 }

@@ -8,4 +8,4 @@ include_once($auth);
 
 
 session_destroy();
-header('Location: '.baseUrl());
+header('Location: ' . baseUrl());

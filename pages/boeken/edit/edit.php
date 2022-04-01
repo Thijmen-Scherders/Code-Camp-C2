@@ -12,8 +12,8 @@ $book = getBookById($query['id']);
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
+	<!DOCTYPE html>
+	<html lang="en">
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/books.css">
@@ -25,8 +25,8 @@ $book = getBookById($query['id']);
 <?php
 
 // Check user login or not
-if(!isset($_SESSION['uname'])){
-    header('Location: '.baseUrl()."/auth/login.php");
+if (!isset($_SESSION['uname'])) {
+    header('Location: ' . baseUrl() . "/auth/login.php");
 }
 
 ?>
@@ -68,7 +68,6 @@ if(!isset($_SESSION['uname'])){
 
 	</div>
 </div>
-
 
 
 <div class="kruimelpad">

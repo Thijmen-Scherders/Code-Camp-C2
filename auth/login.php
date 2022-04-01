@@ -19,11 +19,11 @@ if (isset($_POST['but_submit'])) {
         $count = $row['cntUser'];
 
         if ($count > 0) {
-			echo $uname;
+            echo $uname;
             session_set_cookie_params(0);
             session_start();
             $_SESSION['uname'] = $uname;
-            header('Location: '.baseUrl());
+            header('Location: ' . baseUrl());
         } else {
             echo "Invalid username and password";
         }
@@ -35,12 +35,12 @@ if (isset($_POST['but_submit'])) {
 
 ?>
 
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
-    <link rel="stylesheet" href="<?php echo baseUrl() ?>/auth/auth.css">
-    <title>Songteksten</title>
+	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
+	<link rel="stylesheet" href="<?php echo baseUrl() ?>/auth/auth.css">
+	<title>Songteksten</title>
 </head>
 
 <?php includeHeader(); ?>
@@ -50,13 +50,13 @@ if (isset($_POST['but_submit'])) {
 		<div id="div_login">
 			<h1>Login</h1>
 			<div>
-				<input type="text" class="textbox" id="txt_uname" name="txt_uname" placeholder="Username" />
+				<input type="text" class="textbox" id="txt_uname" name="txt_uname" placeholder="Username"/>
 			</div>
 			<div>
 				<input type="password" class="textbox" id="txt_uname" name="txt_pwd" placeholder="Password"/>
 			</div>
 			<div>
-				<input type="submit" value="Submit" name="but_submit" id="but_submit" />
+				<input type="submit" value="Submit" name="but_submit" id="but_submit"/>
 			</div>
 		</div>
 	</form>

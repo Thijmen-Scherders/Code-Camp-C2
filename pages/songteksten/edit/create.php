@@ -10,9 +10,9 @@ include_once($path . "/backend/BooksController.php");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
-    <link rel="stylesheet" href="<?php echo baseUrl() ?>/public/books.css">
-    <title>Lyrics - Create</title>
+	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
+	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/books.css">
+	<title>Lyrics - Create</title>
 </head>
 
 <?php includeHeader(); ?>
@@ -20,8 +20,8 @@ include_once($path . "/backend/BooksController.php");
 <?php
 
 // Check user login or not
-if(!isset($_SESSION['uname'])){
-    header('Location: '.baseUrl()."/auth/login.php");
+if (!isset($_SESSION['uname'])) {
+    header('Location: ' . baseUrl() . "/auth/login.php");
 }
 
 ?>

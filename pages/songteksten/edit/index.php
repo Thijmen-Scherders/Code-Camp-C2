@@ -8,8 +8,8 @@ include_once($path . "/backend/LyricsController.php");
 $lyrics = getAllLyrics()
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
+	<!DOCTYPE html>
+	<html lang="en">
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/lyrics.css">
@@ -21,8 +21,8 @@ $lyrics = getAllLyrics()
 <?php
 
 // Check user login or not
-if(!isset($_SESSION['uname'])){
-    header('Location: '.baseUrl()."/auth/login.php");
+if (!isset($_SESSION['uname'])) {
+    header('Location: ' . baseUrl() . "/auth/login.php");
 }
 
 ?>
@@ -42,7 +42,8 @@ if(!isset($_SESSION['uname'])){
 					<p class="price">image_url: <?php echo $lyric['image_url']; ?></p>
 					<p class="likes">mp3_url: <?php echo $lyric['mp3_url']; ?></p>
 					<a href="edit.php?id=<?php echo $lyric['id'] ?>">Edit lyrics</a>
-					<a href="delete.php?id=<?php echo $lyric['id']?> " onclick="return  confirm('do you want to delete Y/N')">Delete </a>
+					<a href="delete.php?id=<?php echo $lyric['id'] ?> "
+					   onclick="return  confirm('do you want to delete Y/N')">Delete </a>
 				</div>
 			</div>
         <?php endforeach; ?>

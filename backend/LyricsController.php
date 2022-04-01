@@ -1,7 +1,7 @@
 <?php
 
 $path = $_SERVER['DOCUMENT_ROOT'];
-$config = $path."/backend/config.php";
+$config = $path . "/backend/config.php";
 include_once($config);
 
 if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['updateLyric'])) {
@@ -66,7 +66,8 @@ function getAllLyricsOverview()
     return $statement->fetchAll(PDO::FETCH_ASSOC);
 }
 
-function incrementLyricsLikesByOne($id) {
+function incrementLyricsLikesByOne($id)
+{
     require_once 'conn.php';
     $query = "UPDATE lyrics SET likes=likes + 1 WHERE id='$id'";
     $statement = $conn->prepare($query);
@@ -88,7 +89,7 @@ function createNewLyrics($title, $text, $author, $background_color, $image_url, 
     try {
         $query = "INSERT INTO lyrics (title, `text`, author, background_color, image_url, mp3_url) VALUES (?,?,?,?,?,?)";
         $statement = $conn->prepare($query);
-        $statement->execute(array($title, $text, $author,$background_color,$image_url,$mp3_url));
+        $statement->execute(array($title, $text, $author, $background_color, $image_url, $mp3_url));
         echo $statement->rowCount() . " records UPDATED successfully";
         return true;
     } catch (PDOException $ex) {
@@ -103,7 +104,7 @@ function updateLyricsById($id, $title, $text, $author, $background_color, $image
     try {
         $query = "UPDATE lyrics SET title=?, `text`=?, author=?, background_color=?, image_url=?, mp3_url = ? WHERE id='$id'";
         $statement = $conn->prepare($query);
-        $statement->execute(array($title, $text,$author,$background_color,$image_url,$mp3_url));
+        $statement->execute(array($title, $text, $author, $background_color, $image_url, $mp3_url));
         echo $statement->rowCount() . " records UPDATED successfully";
     } catch (PDOException $ex) {
         return $ex;

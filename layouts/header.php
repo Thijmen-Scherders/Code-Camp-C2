@@ -1,7 +1,7 @@
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= "/backend/config.php";
-$auth = $_SERVER['DOCUMENT_ROOT']."/auth/auth.php";
+$auth = $_SERVER['DOCUMENT_ROOT'] . "/auth/auth.php";
 include_once($path);
 include_once($auth);
 
@@ -27,13 +27,13 @@ include_once($auth);
 			<a href="<?php echo baseUrl() ?>/pages/boeken/index.php">Boeken</a>
 			<a href="<?php echo baseUrl() ?>/pages/link/index.php">Links</a>
 			<a href="<?php echo baseUrl() ?>/pages/chatapp/index.php">Help...</a>
-			<?php
-            if(isset($_SESSION['uname'])){
-                echo "<a href=".baseUrl()."/auth/logout.php".">Logout</a>";
+            <?php
+            if (isset($_SESSION['uname'])) {
+                echo "<a href=" . baseUrl() . "/auth/logout.php" . ">Logout</a>";
             } else {
-                echo "<a href=".baseUrl()."/auth/login.php".">Login</a>";
-			}
-			?>
+                echo "<a href=" . baseUrl() . "/auth/login.php" . ">Login</a>";
+            }
+            ?>
 		</div>
 	</div>
 

@@ -6,8 +6,8 @@ include_once($path . "/backend/BooksController.php");
 $books = getAllBooks()
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
+	<!DOCTYPE html>
+	<html lang="en">
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/books.css">
@@ -17,11 +17,11 @@ $books = getAllBooks()
 <?php includeHeader(); ?>
 
 <div class="overview">
-	<?php
-	if(isset($_SESSION['uname'])) {
+    <?php
+    if (isset($_SESSION['uname'])) {
         echo "<a href='edit/index.php'>Goto the books admin panel</a>";
     }
-	?>
+    ?>
 	<div class="books">
         <?php foreach ($books as $book): ?>
 			<div class="book">
@@ -33,8 +33,10 @@ $books = getAllBooks()
 					<p class="pages">Pages: <?php echo $book['pages']; ?></p>
 					<p class="price">Price: $<?php echo $book['price']; ?></p>
 					<p class="likes">Likes: <?php echo $book['likes']; ?></p>
-					<a href="like.php?id=<?php echo $book['id']?>" onclick="return confirm('Are you sure you want to like this book? Y/N')">Add like </a>
-					<a href="buy.php?id=<?php echo $book['id']?>" onclick="return confirm('Are you sure you want to buy this book? Y/N')">Buy book</a>
+					<a href="like.php?id=<?php echo $book['id'] ?>"
+					   onclick="return confirm('Are you sure you want to like this book? Y/N')">Add like </a>
+					<a href="buy.php?id=<?php echo $book['id'] ?>"
+					   onclick="return confirm('Are you sure you want to buy this book? Y/N')">Buy book</a>
 
 				</div>
 			</div>

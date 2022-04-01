@@ -6,8 +6,8 @@ include_once($path . "/backend/BooksController.php");
 $books = getAllBooks()
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
+	<!DOCTYPE html>
+	<html lang="en">
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/books.css">
@@ -19,8 +19,8 @@ $books = getAllBooks()
 <?php
 
 // Check user login or not
-if(!isset($_SESSION['uname'])){
-    header('Location: '.baseUrl()."/auth/login.php");
+if (!isset($_SESSION['uname'])) {
+    header('Location: ' . baseUrl() . "/auth/login.php");
 }
 
 ?>
@@ -40,7 +40,8 @@ if(!isset($_SESSION['uname'])){
 					<p class="price">Price: $<?php echo $book['price']; ?></p>
 					<p class="likes">Likes: <?php echo $book['likes']; ?></p>
 					<a href="edit.php?id=<?php echo $book['id'] ?>">Edit book</a>
-					<a href="delete.php?id=<?php echo $book['id']?> " onclick="return  confirm('do you want to delete Y/N')">Delete </a>
+					<a href="delete.php?id=<?php echo $book['id'] ?> "
+					   onclick="return  confirm('do you want to delete Y/N')">Delete </a>
 				</div>
 			</div>
         <?php endforeach; ?>

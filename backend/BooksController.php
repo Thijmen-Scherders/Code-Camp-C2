@@ -1,7 +1,7 @@
 <?php
 
 $path = $_SERVER['DOCUMENT_ROOT'];
-$config = $path."/backend/config.php";
+$config = $path . "/backend/config.php";
 include_once($config);
 
 if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['updateBook'])) {
@@ -38,7 +38,8 @@ function getAllBooks()
     return $statement->fetchAll(PDO::FETCH_ASSOC);
 }
 
-function getBookById($id) {
+function getBookById($id)
+{
     require_once 'conn.php';
     $query = "SELECT id, likes, title, author, description, pages, price, image_url  FROM books WHERE id='$id'";
     $statement = $conn->prepare($query);
@@ -46,7 +47,8 @@ function getBookById($id) {
     return $statement->fetch(PDO::FETCH_ASSOC);
 }
 
-function incrementBookLikesByOne($id) {
+function incrementBookLikesByOne($id)
+{
     require_once 'conn.php';
     $query = "UPDATE books SET likes=likes + 1 WHERE id='$id'";
     $statement = $conn->prepare($query);
