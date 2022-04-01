@@ -55,7 +55,7 @@ function getLyricById($id)
 function getAllLyricsOverview()
 {
     require_once 'conn.php';
-    $query = "SELECT id, title, author, image_url FROM lyrics";
+    $query = "SELECT id, title, author, image_url, likes FROM lyrics";
     $statement = $conn->prepare($query);
     $statement->execute();
     return $statement->fetchAll(PDO::FETCH_ASSOC);
