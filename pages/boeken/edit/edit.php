@@ -22,6 +22,15 @@ $book = getBookById($query['id']);
 
 <?php includeHeader(); ?>
 
+<?php
+
+// Check user login or not
+if(!isset($_SESSION['uname'])){
+    header('Location: '.baseUrl()."/auth/login.php");
+}
+
+?>
+
 <div class="single">
 	<div class="book">
 		<form action="<?php echo baseUrl() ?>/backend/BooksController.php" method="POST">

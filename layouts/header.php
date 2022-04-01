@@ -1,10 +1,11 @@
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= "/backend/config.php";
+$auth = $_SERVER['DOCUMENT_ROOT']."/auth/auth.php";
 include_once($path);
+include_once($auth);
+
 ?>
-
-
 
 <head>
 	<meta charset="utf-8">
@@ -27,10 +28,10 @@ include_once($path);
 			<a href="<?php echo baseUrl() ?>/pages/link/index.php">Links</a>
 			<a href="<?php echo baseUrl() ?>/pages/chatapp/index.php">Help...</a>
 			<?php
-            if(!isset($_SESSION['uname'])){
-                echo "<a href=".baseUrl()."/auth/login.php".">Login</a>";
-            } else {
+            if(isset($_SESSION['uname'])){
                 echo "<a href=".baseUrl()."/auth/logout.php".">Logout</a>";
+            } else {
+                echo "<a href=".baseUrl()."/auth/login.php".">Login</a>";
 			}
 			?>
 		</div>

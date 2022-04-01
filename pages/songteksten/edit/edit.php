@@ -10,6 +10,8 @@ parse_str($parts['query'], $query);
 $lyric = getLyricById($query['id']);
 
 
+
+
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +23,15 @@ $lyric = getLyricById($query['id']);
 </head>
 
 <?php includeHeader(); ?>
+
+<?php
+
+// Check user login or not
+if(!isset($_SESSION['uname'])){
+    header('Location: '.baseUrl()."/auth/login.php");
+}
+
+?>
 
 <div class="single">
 	<div class="lyric">

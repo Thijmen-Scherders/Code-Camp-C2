@@ -3,6 +3,8 @@ $path = $_SERVER['DOCUMENT_ROOT'];
 $config = $path . "/backend/config.php";
 include_once($config);
 include_once($path . "/backend/LyricsController.php");
+
+
 $lyrics = getAllLyrics()
 ?>
 
@@ -15,6 +17,15 @@ $lyrics = getAllLyrics()
 </head>
 
 <?php includeHeader(); ?>
+
+<?php
+
+// Check user login or not
+if(!isset($_SESSION['uname'])){
+    header('Location: '.baseUrl()."/auth/login.php");
+}
+
+?>
 
 <div class="overview">
 	<a href="create.php">Create new lyrics</a>

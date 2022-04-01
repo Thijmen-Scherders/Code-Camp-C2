@@ -4,6 +4,7 @@ $config = $path . "/backend/config.php";
 include_once($config);
 include_once($path . "/backend/BooksController.php");
 
+
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +16,15 @@ include_once($path . "/backend/BooksController.php");
 </head>
 
 <?php includeHeader(); ?>
+
+<?php
+
+// Check user login or not
+if(!isset($_SESSION['uname'])){
+    header('Location: '.baseUrl()."/auth/login.php");
+}
+
+?>
 
 <div class="single">
 	<div class="lyric">
