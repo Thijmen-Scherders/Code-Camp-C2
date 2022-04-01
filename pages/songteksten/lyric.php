@@ -21,7 +21,6 @@ endforeach;
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="<?php echo baseUrl() ?>/public/stylesheet.css">
-<!--	<link rel="stylesheet" href="--><?php //echo baseUrl() ?><!--/public/lyrics.css">-->
 	<title><?php echo $lyricDetail['title'] ?> - <?php echo $lyricDetail['author'] ?></title>
 </head>
 
