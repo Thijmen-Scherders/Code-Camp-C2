@@ -3,7 +3,7 @@ $path = $_SERVER['DOCUMENT_ROOT'];
 $config = $path . "/backend/config.php";
 include_once($config);
 include_once($path . "/backend/LyricsController.php");
-$lyrics = getAllLyricTitles()
+$lyrics = getAllLyricsOverview()
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +21,7 @@ $lyrics = getAllLyricTitles()
 	<div class="lyrics">
 
         <?php foreach ($lyrics as $lyric): ?>
+		<a href="lyric.php?id=<?php echo $lyric['id']?>">
 			<div class="lyric">
 				<img class="image" src="<?php echo $lyric['image_url'] ?>" alt="lyrics image"/>
 				<div class="details">
@@ -28,6 +29,7 @@ $lyrics = getAllLyricTitles()
 					<p class="author">Author: <?php echo $lyric['author']; ?></p>
 				</div>
 			</div>
+		</a>
         <?php endforeach; ?>
 
 	</div>

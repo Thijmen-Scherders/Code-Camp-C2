@@ -30,6 +30,11 @@
     justify-items: start;
 }
 
+.overview .lyrics a {
+    display: flex;
+    flex: 1 0 calc(25% - 10px);
+}
+
 .overview .lyric {
     display: flex;
     flex: 1 0 calc(25% - 10px);
