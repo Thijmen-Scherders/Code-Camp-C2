@@ -1,5 +1,34 @@
 <?php
 
+$path = $_SERVER['DOCUMENT_ROOT'];
+$config = $path."/backend/config.php";
+include_once($config);
+
+if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['updateLyric'])) {
+    $id = $_POST['id'];
+    $title = $_POST['title'];
+    $text = $_POST['text'];
+    $author = $_POST['author'];
+    $background_color = $_POST['background_color'];
+    $image_url = $_POST['image_url'];
+    $mp3_url = $_POST['mp3_url'];
+    updateLyricsById($id, $title, $text, $author, $background_color, $image_url, $mp3_url);
+    header("Location: " . baseUrl() . "/pages/songteksten/edit/index.php");
+    exit();
+}
+
+if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['createLyric'])) {
+    $title = $_POST['title'];
+    $text = $_POST['text'];
+    $author = $_POST['author'];
+    $background_color = $_POST['background_color'];
+    $image_url = $_POST['image_url'];
+    $mp3_url = $_POST['mp3_url'];
+    createNewLyrics($title, $text, $author, $background_color, $image_url, $mp3_url);
+    header("Location: " . baseUrl() . "/pages/songteksten/edit/index.php");
+    exit();
+}
+
 function getAllLyrics()
 {
     require_once 'conn.php';

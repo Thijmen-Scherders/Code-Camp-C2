@@ -17,39 +17,39 @@ include_once($path . "/backend/BooksController.php");
 <?php includeHeader(); ?>
 
 <div class="single">
-    <div class="lyric">
-        <form action="<?php echo baseUrl() ?>/backend/LyricsController.php" method="POST">
+	<div class="lyric">
+		<form action="<?php echo baseUrl() ?>/backend/LyricsController.php" method="POST">
 
-            <div class="details">
-                <label>
-                    Image url
-                    <input type="text" name="image_url" value="" placeholder="image_url"/>
-                </label>
-                <label>
-                    Title
-                    <input type="text" name="title" value="" placeholder="title"/>
-                </label>
-                <label>
-                    Author
-                    <input type="text" name="author" value="" placeholder="author"/>
-                </label>
-                <label>
-                    Description
-                    <input type="text" name="description" value="" placeholder="description"/>
-                </label>
-                <label>
-                    Pages
-                    <input type="number" name="pages" value="" placeholder="pages"/>
-                </label>
-                <label>
-                    Price
-                    <input type="number" name="price" value="" placeholder="price"/>
-                </label>
-                <input type="submit" name="createBook" value="Create Book"/>
-            </div>
-        </form>
+			<div class="details">
+				<label>
+					Title
+					<input type="text" name="title" value="" placeholder="title"/>
+				</label>
+				<label>
+					Author
+					<input type="text" name="author" value="" placeholder="author"/>
+				</label>
+				<label>
+					Text
+					<input type="text" name="text" value="" placeholder="text"/>
+				</label>
+				<label>
+					Background_Color
+					<input type="text" name="background_color" value="" placeholder="background_color"/>
+				</label>
+				<label>
+					Image_Url
+					<input type="text" name="image_url" value="" placeholder="image_url"/>
+				</label>
+				<label>
+					MP3_Url
+					<input type="text" name="mp3_url" value="" placeholder="mp3_url"/>
+				</label>
+				<input type="submit" name="createLyric" value="Create Lyrics"/>
+			</div>
+		</form>
 
-    </div>
+	</div>
 </div>
 
 
