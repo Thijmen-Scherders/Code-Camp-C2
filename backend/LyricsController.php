@@ -81,14 +81,14 @@ function createNewLyrics($title, $text, $author, $background_color, $image_url, 
 {
     require_once 'conn.php';
     try {
-        $query = "INSERT INTO lyrics (title, `text`, author, background_color, image_url, mp3_url) VALUES ('$title', '$text', '$author', '$background_color', '$image_url', '$mp3_url')";
+        $query = "INSERT INTO lyrics (title, `text`, author, background_color, image_url, mp3_url) VALUES (?,?,?,?,?,?)";
         $statement = $conn->prepare($query);
-        $statement->execute();
+        $statement->execute(array($title, $text, $author,$background_color,$image_url,$mp3_url));
         echo $statement->rowCount() . " records UPDATED successfully";
         return true;
     } catch (PDOException $ex) {
         echo $ex;
-        return false;
+//        return false;
     }
 }
 
