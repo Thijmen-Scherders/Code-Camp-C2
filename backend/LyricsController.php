@@ -12,9 +12,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['updateLyric'])) {
     $background_color = $_POST['background_color'];
     $image_url = $_POST['image_url'];
     $mp3_url = $_POST['mp3_url'];
-    updateLyricsById($id, $title, $text, $author, $background_color, $image_url, $mp3_url);
-    header("Location: " . baseUrl() . "/pages/songteksten/edit/index.php");
-    exit();
+    try {
+        updateLyricsById($id, $title, $text, $author, $background_color, $image_url, $mp3_url);
+    } catch (Exception $ex) {
+        echo $ex;
+        return;
+    }
+//    header("Location: " . baseUrl() . "/pages/songteksten/edit/index.php");
+//    exit();
 }
 
 if ($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['createLyric'])) {
@@ -96,9 +101,9 @@ function updateLyricsById($id, $title, $text, $author, $background_color, $image
 {
     require_once 'conn.php';
     try {
-        $query = "UPDATE lyrics SET title='$title', `text`='$text', author='$author', background_color='$background_color', image_url='$image_url', mp3_url = '$mp3_url' WHERE id='$id'";
+        $query = "UPDATE lyrics SET title=?, `text`=?, author=?, background_color=?, image_url=?, mp3_url = ? WHERE id='$id'";
         $statement = $conn->prepare($query);
-        $statement->execute();
+        $statement->execute(array($title, $text,$author,$background_color,$image_url,$mp3_url));
         echo $statement->rowCount() . " records UPDATED successfully";
     } catch (PDOException $ex) {
         return $ex;
