@@ -42,8 +42,6 @@
 .book {
     display: flex;
     flex: 1 0 calc(33% - 10px);
-    /*width: 500px;*/
-    /*max-width: 25%;*/
     background-color: grey;
     color: white;
 }
