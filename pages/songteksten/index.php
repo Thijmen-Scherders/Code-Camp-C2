@@ -18,6 +18,8 @@ $lyrics = getAllLyricsOverview()
 <?php includeHeader(); ?>
 
 <div class="overview">
+	<a href="edit/index.php">Goto the lyrics admin panel</a>
+
 	<div class="lyrics">
 
         <?php foreach ($lyrics as $lyric): ?>
