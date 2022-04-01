@@ -29,6 +29,7 @@ $lyrics = getAllLyricsOverview()
 				<div class="details">
 					<p class="title"><?php echo $lyric['title']; ?></p>
 					<p class="author">Author: <?php echo $lyric['author']; ?></p>
+					<a href="like.php?id=<?php echo $lyric['id']?>" onclick="return confirm('Are you sure you want to like this song? Y/N')">Add like </a>
 				</div>
 			</div>
 		</a>
