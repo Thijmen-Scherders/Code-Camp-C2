@@ -22,7 +22,7 @@ $lyrics = getAllLyrics()
 
         <?php foreach ($lyrics as $lyric): ?>
 			<div class="lyric">
-				<img class="image" src="<?php echo $lyric['image_url'] ?>" alt="book image"/>
+				<img class="image" src="<?php echo $lyric['image_url'] ?>" alt="lyric image"/>
 				<div class="details">
 					<p class="title">Title: <?php echo $lyric['title']; ?></p>
 					<p class="author">Author: <?php echo $lyric['author']; ?></p>
