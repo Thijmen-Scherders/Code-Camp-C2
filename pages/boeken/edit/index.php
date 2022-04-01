@@ -18,6 +18,7 @@ $books = getAllBooks()
 <?php includeHeader(); ?>
 
 <div class="overview">
+	<a href="create.php">Create new book</a>
 	<div class="books">
 
         <?php foreach ($books as $book): ?>
