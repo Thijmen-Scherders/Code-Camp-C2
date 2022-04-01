@@ -3,12 +3,6 @@ $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= "/backend/config.php";
 include_once($path);
 
-//
-//
-//echo '<pre>Session: ';
-//var_dump($_SESSION);
-//echo '</pre>';
-//exit();
 ?>
 
 <!DOCTYPE html>
@@ -21,16 +15,6 @@ include_once($path);
 <body class="mainpage">
 
 <?php includeHeader(); ?>
-
-<?php
-
-// Check user login or not
-if(!isset($_SESSION['uname'])){
-    header('Location: '.baseUrl()."/auth/login.php");
-}
-
-?>
-
 
 
 <div class="wrapper">
