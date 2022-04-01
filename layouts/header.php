@@ -4,6 +4,8 @@ $path .= "/backend/config.php";
 include_once($path);
 ?>
 
+
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,6 +26,13 @@ include_once($path);
 			<a href="<?php echo baseUrl() ?>/pages/boeken/index.php">Boeken</a>
 			<a href="<?php echo baseUrl() ?>/pages/link/index.php">Links</a>
 			<a href="<?php echo baseUrl() ?>/pages/chatapp/index.php">Help...</a>
+			<?php
+            if(!isset($_SESSION['uname'])){
+                echo "<a href=".baseUrl()."/auth/login.php".">Login</a>";
+            } else {
+                echo "<a href=".baseUrl()."/auth/logout.php".">Logout</a>";
+			}
+			?>
 		</div>
 	</div>
 
