@@ -46,6 +46,11 @@ endforeach;
 			<img class="image" src="<?php echo $lyricDetail['image_url'] ?>" alt="book image"/>
 			<div class="container-column">
                 <?php echo $lyricDetail['text'] ?>
+				<div class="mp3">
+					<audio controls>
+						<source src="<?php echo $lyricDetail['mp3_url']?>" type="audio/mpeg">
+					</audio>
+				</div>
 			</div>
 		</div>
 	</div>
