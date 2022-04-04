@@ -19,8 +19,7 @@ include_once($path);
 
 <div class="wrapper">
 	<div class="datum_tijd">
-		<iframe src="https://free.timeanddate.com/clock/i80s3idm/n1297/tlaw14/fn6/fs16/fcfff/tc000/ftb/bas2/bat1/bacfff/pa8/tt0/tw1/th1/ta1/tb4"
-				frameborder="0" width="207" height="58"></iframe>
+		<iframe src="https://free.timeanddate.com/clock/i89q4uwx/n1297/fn6/fs16/fcfff/tc000/ftb/bas2/bat1/bacfff/pa8/tt0/th1/ta1/tb4" frameborder="0" width="274" height="58"></iframe>
 	</div>
 
 	<div class="homeimg">
