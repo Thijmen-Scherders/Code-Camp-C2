@@ -14,6 +14,6 @@ include_once($path);
 		<a href="<?php echo baseUrl(); ?>/pages/acteurs/acteur/George-clooney/Matt-King.php">George Clooney (Film
 			personage)</a>
 		<a href="<?php echo baseUrl(); ?>/pages/acteurs/acteur/Darth.php">Darth vader</a>
-		<a href="<?php echo baseUrl(); ?>/pages/acteurs/acteur/Luke.php">Luke skywalker</a>
+		<a href="<?php echo baseUrl(); ?>/pages/acteurs/acteur/luke.php">Luke skywalker</a>
 	</div>
 </div>
