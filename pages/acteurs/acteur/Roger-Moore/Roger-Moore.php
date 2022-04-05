@@ -62,9 +62,9 @@ include_once($path);
 		<div class="container-column black">
 			<h1>The Spy Who Loved Me: 1977</h1>
 			<p>
-			is de negende James Bondfilm geproduceerd door EON Productions, met Roger Moore als James Bond. De film is uitgebracht in 1974. Hij is gebaseerd op het gelijknamige boek uit 1965. De film speelt zich af tegen de achtergrond van de oliecrisis van 1973. 
+			is een Britse spionagefilm uit 1977, de tiende in de James Bond-serie geproduceerd door Eon Productions. Het is de derde met Roger Moore als de fictieve geheim agent James Bond. De hoofdrollen worden vertolkt door Barbara Bach en Curt Jürgens. Het scenario was van Christopher Wood en Richard Maibaum, met een niet-gecrediteerde herschrijving door Tom Mankiewicz. 
 			</p>
-			<a href="https://en.wikipedia.org/wiki/The_Man_with_the_Golden_Gun_(film)">Wanna read more?</a>
+			<a href="https://en.wikipedia.org/wiki/The_Spy_Who_Loved_Me_(film)">Wanna Read More?</a>
 			
 		</div>
 	</div>
