@@ -28,7 +28,7 @@ include_once($path);
 				character in seven feature films between 1973 and 1985. Moore's seven appearances as Bond, from Live and
 				Let Die to A View to a Kill, are the most of any actor in the Eon-produced entries.
 			</p>
-			<a href="https://en.wikipedia.org/wiki/Roger_Moore"> Wanna read more? ...</a>
+			<a href="https://en.wikipedia.org/wiki/Roger_Moore"> Wanna read more? </a>
 		</div>
 	</div>
 
@@ -40,10 +40,48 @@ include_once($path);
 			<p>
 			Live and Let Die is een spionagefilm uit 1973. Het was de achtste film in de James Bond-serie geproduceerd door Eon Productions, en de eerste met Roger Moore als de fictieve MI6-agent James Bond. 
 			</p>
-			<a href="https://en.wikipedia.org/wiki/Live_and_Let_Die_(film)">Live and Let Die: 1973</a>
+			<a href="https://en.wikipedia.org/wiki/Live_and_Let_Die_(film)">Wanna read more?</a>
 			
 		</div>
 	</div>
+
+	<div class="container black">
+		<img src="<?php echo baseUrl() ?>/public/img/golden.jpg" alt="map"/>
+		<div class="container-column black">
+			<h1>The Man with the Golden Gun: 1974</h1>
+			<p>
+			is de negende James Bondfilm geproduceerd door EON Productions, met Roger Moore als James Bond. De film is uitgebracht in 1974. Hij is gebaseerd op het gelijknamige boek uit 1965. De film speelt zich af tegen de achtergrond van de oliecrisis van 1973. 
+			</p>
+			<a href="https://en.wikipedia.org/wiki/The_Man_with_the_Golden_Gun_(film)">Wanna read more?</a>
+			
+		</div>
+	</div>
+
+	<div class="container black">
+		<img src="<?php echo baseUrl() ?>/public/img/spy.jpg" alt="map"/>
+		<div class="container-column black">
+			<h1>The Spy Who Loved Me: 1977</h1>
+			<p>
+			is een Britse spionagefilm uit 1977, de tiende in de James Bond-serie geproduceerd door Eon Productions. Het is de derde met Roger Moore als de fictieve geheim agent James Bond. De hoofdrollen worden vertolkt door Barbara Bach en Curt Jürgens. Het scenario was van Christopher Wood en Richard Maibaum, met een niet-gecrediteerde herschrijving door Tom Mankiewicz. 
+			</p>
+			<a href="https://en.wikipedia.org/wiki/The_Spy_Who_Loved_Me_(film)">Wanna read more?</a>
+			
+		</div>
+	</div>
+
+
+	<div class="container black">
+		<img src="<?php echo baseUrl() ?>/public/img/spy.jpg" alt="map"/>
+		<div class="container-column black">
+			<h1>Moonraker: 1979</h1>
+			<p>
+			is een Britse spionagefilm uit 1977, de tiende in de James Bond-serie geproduceerd door Eon Productions. Het is de derde met Roger Moore als de fictieve geheim agent James Bond. De hoofdrollen worden vertolkt door Barbara Bach en Curt Jürgens. Het scenario was van Christopher Wood en Richard Maibaum, met een niet-gecrediteerde herschrijving door Tom Mankiewicz. 
+			</p>
+			<a href="https://en.wikipedia.org/wiki/The_Spy_Who_Loved_Me_(film)">Wanna read more?</a>
+			
+		</div>
+	</div>
+
 	<div class="container-column black">
 		<h1>James bond movies Roger More acted in</h1>
 		<a href="https://en.wikipedia.org/wiki/Live_and_Let_Die_(film)">Live and Let Die: 1973</a>
