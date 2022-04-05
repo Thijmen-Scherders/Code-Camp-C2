@@ -40,7 +40,7 @@ include_once($path);
 			<p>
 			Live and Let Die is een spionagefilm uit 1973. Het was de achtste film in de James Bond-serie geproduceerd door Eon Productions, en de eerste met Roger Moore als de fictieve MI6-agent James Bond. 
 			</p>
-			<a href="https://en.wikipedia.org/wiki/Live_and_Let_Die_(film)">Live and Let Die: 1973</a>
+			<a href="https://en.wikipedia.org/wiki/Live_and_Let_Die_(film)">Wanna read more?</a>
 			
 		</div>
 	</div>
