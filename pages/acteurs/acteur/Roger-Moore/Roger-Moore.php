@@ -69,6 +69,19 @@ include_once($path);
 		</div>
 	</div>
 
+
+	<div class="container black">
+		<img src="<?php echo baseUrl() ?>/public/img/spy.jpg" alt="map"/>
+		<div class="container-column black">
+			<h1>Moonraker: 1979</h1>
+			<p>
+			is een Britse spionagefilm uit 1977, de tiende in de James Bond-serie geproduceerd door Eon Productions. Het is de derde met Roger Moore als de fictieve geheim agent James Bond. De hoofdrollen worden vertolkt door Barbara Bach en Curt Jürgens. Het scenario was van Christopher Wood en Richard Maibaum, met een niet-gecrediteerde herschrijving door Tom Mankiewicz. 
+			</p>
+			<a href="https://en.wikipedia.org/wiki/The_Spy_Who_Loved_Me_(film)">Wanna read more?</a>
+			
+		</div>
+	</div>
+
 	<div class="container-column black">
 		<h1>James bond movies Roger More acted in</h1>
 		<a href="https://en.wikipedia.org/wiki/Live_and_Let_Die_(film)">Live and Let Die: 1973</a>
