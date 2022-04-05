@@ -474,9 +474,3 @@ footer {
     justify-content: center;
 
 }
-
-.container-column.blueExtended {
-    background: var(--blue);
-    color: var(--white);
-    max-width: auto;
-}
