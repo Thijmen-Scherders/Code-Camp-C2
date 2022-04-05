@@ -28,7 +28,7 @@ include_once($path);
 				character in seven feature films between 1973 and 1985. Moore's seven appearances as Bond, from Live and
 				Let Die to A View to a Kill, are the most of any actor in the Eon-produced entries.
 			</p>
-			<a href="https://en.wikipedia.org/wiki/Roger_Moore"> Wanna read more? ...</a>
+			<a href="https://en.wikipedia.org/wiki/Roger_Moore"> Wanna read more? </a>
 		</div>
 	</div>
 
