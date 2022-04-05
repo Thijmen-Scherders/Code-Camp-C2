@@ -18,12 +18,13 @@ include_once($path);
 <?php includeZagenSubMenu(); ?>
 
 <div class="kettingzaag">
-	<h1>kettingzagen</h1>
-	<img src="/public/img/kettingzaag.jpg" alt="kettingzaag">
-	<h2>Een kettingzaag (ook motorzaag, motorkettingzaag of boomzaag genoemd)
-		is een draagbare machine om mee te zagen. De belangrijkste functie is
-		hout zagen.</h2>
-	<h2>Elektrische kettingzaag</h2>
+	<div class="kettingzaag2">
+		<h1>kettingzagen</h1>
+		<img src="/public/img/kettingzaag.jpg" alt="kettingzaag">
+		<h2>Een kettingzaag (ook motorzaag, motorkettingzaag of boomzaag genoemd)
+			is een draagbare machine om mee te zagen. De belangrijkste functie is
+			hout zagen.</h2>
+	</div>
 	<div class="kettingzaag2">
 		<h2>Elektrische kettingzaag</h2>
 		<img src="/public/img/elektrisch.jpg" alt="elektrische zaag">
