@@ -44,6 +44,18 @@ include_once($path);
 			
 		</div>
 	</div>
+
+	<div class="container black">
+		<img src="<?php echo baseUrl() ?>/public/img/golden.jpg" alt="map"/>
+		<div class="container-column black">
+			<h1>The Man with the Golden Gun: 1974</h1>
+			<p>
+			is de negende James Bondfilm geproduceerd door EON Productions, met Roger Moore als James Bond. De film is uitgebracht in 1974. Hij is gebaseerd op het gelijknamige boek uit 1965. De film speelt zich af tegen de achtergrond van de oliecrisis van 1973. 
+			</p>
+			<a href="https://en.wikipedia.org/wiki/The_Man_with_the_Golden_Gun_(film)">The Man with the Golden Gun: 1974</a>
+			
+		</div>
+	</div>
 	<div class="container-column black">
 		<h1>James bond movies Roger More acted in</h1>
 		<a href="https://en.wikipedia.org/wiki/Live_and_Let_Die_(film)">Live and Let Die: 1973</a>
