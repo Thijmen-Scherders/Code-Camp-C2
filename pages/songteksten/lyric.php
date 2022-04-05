@@ -27,7 +27,7 @@ endforeach;
 <?php includeHeader(); ?>
 
 <div class="wrapper">
-	<div class="container-column blue">
+	<div class="container-column blueExtended">
 		<div class="container song">
             <?php foreach ($lyrics as $lyric): ?>
 
