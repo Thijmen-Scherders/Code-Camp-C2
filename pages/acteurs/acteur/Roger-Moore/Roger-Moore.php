@@ -58,7 +58,7 @@ include_once($path);
 	</div>
 
 	<div class="container black">
-		<img src="<?php echo baseUrl() ?>/public/img/golden.jpg" alt="map"/>
+		<img src="<?php echo baseUrl() ?>/public/img/spy.jpg" alt="map"/>
 		<div class="container-column black">
 			<h1>The Spy Who Loved Me: 1977</h1>
 			<p>
