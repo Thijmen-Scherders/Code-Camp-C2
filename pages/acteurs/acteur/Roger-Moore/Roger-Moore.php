@@ -52,7 +52,7 @@ include_once($path);
 			<p>
 			is de negende James Bondfilm geproduceerd door EON Productions, met Roger Moore als James Bond. De film is uitgebracht in 1974. Hij is gebaseerd op het gelijknamige boek uit 1965. De film speelt zich af tegen de achtergrond van de oliecrisis van 1973. 
 			</p>
-			<a href="https://en.wikipedia.org/wiki/The_Man_with_the_Golden_Gun_(film)">The Man with the Golden Gun: 1974</a>
+			<a href="https://en.wikipedia.org/wiki/The_Man_with_the_Golden_Gun_(film)">Wanna read more?</a>
 			
 		</div>
 	</div>
