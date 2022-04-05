@@ -1,4 +1,5 @@
 <?php
+/*
 session_start();
 
 $dbHost = 'localhost';
@@ -10,4 +11,4 @@ $con = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
 // Check connection
 if (!$con) {
     die("Connection failed: " . mysqli_connect_error());
-}
+}*/
