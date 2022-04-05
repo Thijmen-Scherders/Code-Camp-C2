@@ -478,3 +478,12 @@ footer {
 
 }
 
+.container-column.grey{
+    background-color: var(--grey);
+    color: black;
+}
+
+.container-column.grey a{
+    text-decoration: none;
+    color: black;
+}
