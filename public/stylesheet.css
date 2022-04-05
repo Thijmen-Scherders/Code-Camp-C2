@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 :root {
     --red: #cc0000;
     --grey: grey;
@@ -473,3 +478,12 @@ footer {
 
 }
 
+.container-column.grey{
+    background-color: var(--grey);
+    color: black;
+}
+
+.container-column.grey a{
+    text-decoration: none;
+    color: black;
+}

@@ -20,7 +20,7 @@ include_once($path);
 
 </div>
 
-<div class="container-column black">
+<div class="container-column grey">
 	<div class="links">
 		<div class="imdb">
 			<img src="<?php echo baseUrl() ?>/public/img/imdb.png" alt="foto">
