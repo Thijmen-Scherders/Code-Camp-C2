@@ -31,6 +31,19 @@ include_once($path);
 			<a href="https://en.wikipedia.org/wiki/Roger_Moore"> Wanna read more? ...</a>
 		</div>
 	</div>
+
+
+	<div class="container black">
+		<img src="<?php echo baseUrl() ?>/public/img/live.jpg" alt="map"/>
+		<div class="container-column black">
+			<h1>Live and Let Die: 1973</h1>
+			<p>
+			Live and Let Die is een spionagefilm uit 1973. Het was de achtste film in de James Bond-serie geproduceerd door Eon Productions, en de eerste met Roger Moore als de fictieve MI6-agent James Bond. 
+			</p>
+			<a href="https://en.wikipedia.org/wiki/Live_and_Let_Die_(film)">Live and Let Die: 1973</a>
+			
+		</div>
+	</div>
 	<div class="container-column black">
 		<h1>James bond movies Roger More acted in</h1>
 		<a href="https://en.wikipedia.org/wiki/Live_and_Let_Die_(film)">Live and Let Die: 1973</a>
