@@ -28,11 +28,7 @@ include_once($path);
 		<div class="container-column">
 			<h1>Matthew King</h1>
 			<p>
-				Matthew Thomas King was the second son of Tom and Mary King. He was the most headstrong and manipulative
-				of the four King brothers.
-
-				During his time in Emmerdale, Matthew had relationships with several women and was engaged to Anna De
-				Souza when he died.
+			Matthew Thomas King was de tweede zoon van Tom en Mary King. Hij was de meest eigengereide en manipulatieve van de vier King-broers. Tijdens zijn tijd in Emmerdale had Matthew relaties met verschillende vrouwen en was hij verloofd met Anna De Souza toen hij stierf.
 			</p>
 			<a href="https://emmerdale.fandom.com/wiki/Matthew_King"> Wanna read more?</a>
 		</div>
