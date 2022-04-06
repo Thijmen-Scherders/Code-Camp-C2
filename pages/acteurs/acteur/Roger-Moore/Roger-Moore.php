@@ -110,6 +110,20 @@ include_once($path);
 		</div>
 	</div>
 
+
+	
+	<div class="container black">
+		<img src="<?php echo baseUrl() ?>/public/img/view.jpg" alt="map"/>
+		<div class="container-column black">
+			<h1>A view to a kill: 1985</h1>
+			<p>
+			is een spionagefilm uit 1985 en de veertiende in de James Bond-serie geproduceerd door Eon Productions, en is de zevende en laatste verschijning van Roger Moore als de fictieve MI6-agent James Bond. Hoewel de titel is aangepast van Ian Fleming's korte verhaal "From a View to a Kill" uit 1960, heeft de film een volledig origineel scenario. In A View to a Kill neemt Bond het op tegen Max Zorin (gespeeld door Christopher Walken), die van plan is silicon valley in Californië te vernietigen.
+			</p>
+			<a href="https://en.wikipedia.org/wiki/A_View_to_a_Kill">A view to a kill: 1985</a>
+			
+		</div>
+	</div>
+
 	<div class="container-column black">
 		<h1>James bond movies Roger More acted in</h1>
 		<a href="https://en.wikipedia.org/wiki/Live_and_Let_Die_(film)">Live and Let Die: 1973</a>
