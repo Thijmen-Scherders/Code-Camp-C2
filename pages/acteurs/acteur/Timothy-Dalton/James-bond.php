@@ -28,7 +28,7 @@ include_once($path);
 				Fleming and a number of continuation novels and spin-off works after Fleming's death in 1964. There have
 				been twenty-seven films in total, produced and released between 1962 and 2021.
 			</p>
-			<a href="https://en.wikipedia.org/wiki/Portrayal_of_James_Bond_in_film"> read more...</a>
+			<a href="https://en.wikipedia.org/wiki/Portrayal_of_James_Bond_in_film"> Wanna read more?</a>
 		</div>
 	</div>
 </div>
