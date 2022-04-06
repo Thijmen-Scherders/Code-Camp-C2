@@ -123,7 +123,7 @@ include_once($path);
 			<p>
 			is een spionagefilm uit 1985 en de veertiende in de James Bond-serie geproduceerd door Eon Productions, en is de zevende en laatste verschijning van Roger Moore als de fictieve MI6-agent James Bond. Hoewel de titel is aangepast van Ian Fleming's korte verhaal "From a View to a Kill" uit 1960, heeft de film een volledig origineel scenario. In A View to a Kill neemt Bond het op tegen Max Zorin (gespeeld door Christopher Walken), die van plan is silicon valley in Californië te vernietigen.
 			</p>
-			<a href="https://en.wikipedia.org/wiki/A_View_to_a_Kill">A view to a kill: 1985</a>
+			<a href="https://en.wikipedia.org/wiki/A_View_to_a_Kill">Wanna read more?</a>
 			
 		</div>
 	</div>
