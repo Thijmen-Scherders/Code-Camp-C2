@@ -105,7 +105,7 @@ include_once($path);
 			<p>
 			is een Britse spionagefilm uit 1983 en de dertiende in de James Bond-serie geproduceerd door Eon Productions; de zesde met Roger Moore als de fictieve MI6-agent James Bond. De film werd geregisseerd door John Glen en het scenario werd geschreven door George MacDonald Fraser, Richard Maibaum en Michael G. Wilson.
 			</p>
-			<a href="https://en.wikipedia.org/wiki/Octopussy">Octopussy: 1983</a>
+			<a href="https://en.wikipedia.org/wiki/Octopussy">Wanna read more?</a>
 			
 		</div>
 	</div>
