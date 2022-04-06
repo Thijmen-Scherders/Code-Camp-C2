@@ -77,11 +77,15 @@ p{
 }
 
 .contact {
+    display: flex;
     background: var(--black);
     color: var(--white);
     border-radius: 15px;
     padding: 30px;
-    margin: 150px;
+    margin: 3rem 30%;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  0rem 0rem 1rem 10px lightgray;
 }
 
 .contact h2 {
@@ -475,7 +479,11 @@ footer {
 .datum_tijd {
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
+}
 
+.datum_tijd iframe{
+    box-shadow:  0rem 0rem 18px 10px lightgray;
 }
 
 .container-column.grey{

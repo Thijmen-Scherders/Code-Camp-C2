@@ -34,7 +34,7 @@ include_once($path);
 				During his time in Emmerdale, Matthew had relationships with several women and was engaged to Anna De
 				Souza when he died.
 			</p>
-			<a href="https://emmerdale.fandom.com/wiki/Matthew_King"> read more...</a>
+			<a href="https://emmerdale.fandom.com/wiki/Matthew_King"> Wanna read more?</a>
 		</div>
 	</div>
 </div>
