@@ -79,7 +79,7 @@ include_once($path);
 			<p>
 			is het derde James Bondboek geschreven in 1955 door Ian Fleming. In 1979 werd het boek verfilmd door EON Productions. De rol van James Bond werd vertolkt door Roger Moore en de film werd geregisseerd door Lewis Gilbert. Omdat sciencefictionfilms zeer succesvol bleken te zijn, ging Bond in deze film naar de ruimte terwijl in het originele boek Bond gewoon op de aarde blijft.
 			</p>
-			<a href="https://en.wikipedia.org/wiki/The_Spy_Who_Loved_Me_(film)">Wanna read more?</a>
+			<a href="https://en.wikipedia.org/wiki/Moonraker_(film)">Moonraker:1979</a>
 			
 		</div>
 	</div>
