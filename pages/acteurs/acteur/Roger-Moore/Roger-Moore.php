@@ -99,7 +99,7 @@ include_once($path);
 
 
 	<div class="container black">
-		<img src="<?php echo baseUrl() ?>/public/img/eye.jpg" alt="map"/>
+		<img src="<?php echo baseUrl() ?>/public/img/octo.jpg" alt="map"/>
 		<div class="container-column black">
 			<h1>Octopussy: 1983</h1>
 			<p>
