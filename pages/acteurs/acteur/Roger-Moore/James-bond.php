@@ -34,10 +34,10 @@ include_once($path);
 		<h1>James bond movies Roger Moore acted in</h1>
 		<a href="https://nl.wikipedia.org/wiki/Live_and_Let_Die_(film)">Live and Let Die: 1973</a>
 		<a href="https://nl.wikipedia.org/wiki/The_Man_with_the_Golden_Gun">The Man with the Golden Gun: 1974</a>
-		<a href="https://nl.wikipedia.org/wiki/The_Spy_Who_Loved_Me_(film)">The Spy Who Loved Me: 1977</a>
-		<a href="https://nl.wikipedia.org/wiki/Moonraker_(film)">Moonraker: 1979</a>
-		<a href="https://nl.wikipedia.org/wiki/For_Your_Eyes_Only_(film)">For your eyes only: 1981</a>
-		<a href="https://nl.wikipedia.org/wiki/Octopussy">Octopussy: 1983</a>
+		<a href="https://nl.wikipedia.org/wiki/The_Spy_Who_Loved_Me">The Spy Who Loved Me: 1977</a>
+		<a href="https://nl.wikipedia.org/wiki/Moonraker">Moonraker: 1979</a>
+		<a href="https://nl.wikipedia.org/wiki/For_Your_Eyes_Only">For your eyes only: 1981</a>
+		<a href="https://nl.wikipedia.org/wiki/Octopussy_(film)">Octopussy: 1983</a>
 		<a href="https://nl.wikipedia.org/wiki/A_View_to_a_Kill">A view to a kill: 1985</a>
 	</div>
 </div>
