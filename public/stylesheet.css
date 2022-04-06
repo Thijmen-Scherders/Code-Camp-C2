@@ -495,3 +495,9 @@ footer {
     text-decoration: none;
     color: black;
 }
+
+.p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 80px;
+}
