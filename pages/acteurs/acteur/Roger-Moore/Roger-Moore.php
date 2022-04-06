@@ -90,9 +90,22 @@ include_once($path);
 		<div class="container-column black">
 			<h1>For your eyes only: 1981</h1>
 			<p>
-			is een Britse spionagefilm uit 1977, de tiende in de James Bond-serie geproduceerd door Eon Productions. Het is de derde met Roger Moore als de fictieve geheim agent James Bond. De hoofdrollen worden vertolkt door Barbara Bach en Curt Jürgens. Het scenario was van Christopher Wood en Richard Maibaum, met een niet-gecrediteerde herschrijving door Tom Mankiewicz. 
+			is een Britse spionagefilm uit 1981 onder regie van John Glen. De hoofdrollen worden vertolkt door Roger Moore als de fictieve MI6-agent James Bond en de hoofdrollen worden vertolkt door Carole Bouquet, Chaim Topol, Lynn-Holly Johnson en Julian Glover.
 			</p>
 			<a href="https://en.wikipedia.org/wiki/The_Spy_Who_Loved_Me_(film)">Wanna read more?</a>
+			
+		</div>
+	</div>
+
+
+	<div class="container black">
+		<img src="<?php echo baseUrl() ?>/public/img/eye.jpg" alt="map"/>
+		<div class="container-column black">
+			<h1>Octopussy: 1983</h1>
+			<p>
+			is een Britse spionagefilm uit 1983 en de dertiende in de James Bond-serie geproduceerd door Eon Productions; de zesde met Roger Moore als de fictieve MI6-agent James Bond. De film werd geregisseerd door John Glen en het scenario werd geschreven door George MacDonald Fraser, Richard Maibaum en Michael G. Wilson.
+			</p>
+			<a href="https://en.wikipedia.org/wiki/Octopussy">Octopussy: 1983</a>
 			
 		</div>
 	</div>
