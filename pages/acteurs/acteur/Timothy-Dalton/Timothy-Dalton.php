@@ -35,7 +35,7 @@ include_once($path);
 				appeared in the films Flash Gordon (1980), The Rocketeer (1991), Looney Tunes: Back in Action (2003),
 				Hot Fuzz (2007), Toy Story 3 (2010) and The Tourist (2010).
 			</p>
-			<a href="https://en.wikipedia.org/wiki/Timothy_Dalton"> Wanna read more?</a>
+			<a href="https://en.wikipedia.org/wiki/Timothy_Dalton"> Meer willen weten?</a>
 		</div>
 	</div>
 </div>
