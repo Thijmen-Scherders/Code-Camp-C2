@@ -28,29 +28,24 @@ include_once($path);
 		<div class="container-column">
 			<h1>Darth Vader</h1>
 			<p class="darth">
-				Darth Vader is a fictional character in the Star Wars franchise. The character is the primary antagonist
-				in
-				the original trilogy and, as Anakin Skywalker, is a primary protagonist in the prequel trilogy. Star
-				Wars
-				creator George Lucas has collectively referred to the first six episodic films of the franchise as "the
-				tragedy of Darth Vader".[3] He has become one of the most iconic villains in popular culture, and has
-				been
-				listed among the greatest villains and fictional characters ever.[4][5]
+			Darth Vader is een personage uit de Star Wars-franchise. Het personage is de primaire antagonist in de originele trilogie en is als Anakin Skywalker een primaire protagonist in de prequel-trilogie. Star Wars-bedenker George Lucas heeft gezamenlijk verwezen naar de eerste zes episodische films van de franchise als "de
+			tragedie van Darth Vader". [3] Hij is uitgegroeid tot een van de meest iconische schurken in de populaire cultuur, en is
+			vermeld onder de grootste schurken en fictieve personages ooit. [4] [5]
 			</p>
 
 			<p class="darth">
-
-				Originally a slave on Tatooine, Anakin Skywalker is a Jedi prophesied to bring balance to the Force. He
+				Anakin Skywalker, oorspronkelijk een slaaf op Tatooine, is een Jedi die geprofeteerd is om balans te brengen in de Force. Hij
 				is
-				lured to the dark side of the Force by Palpatine and becomes a Sith Lord, assuming the title Darth
+				door Palpatine naar de duistere kant van de Force gelokt en wordt een Sith Lord, die de titel Darth aanneemt
 				Vader.
-				After a lightsaber battle with his former mentor Obi-Wan Kenobi on Mustafar, in which he is severely
-				injured, Vader is transformed into a cyborg. He then serves the Galactic Empire as its chief enforcer.
+				Na een lichtzwaardgevecht met zijn voormalige mentor Obi-Wan Kenobi op Mustafar, waarin hij zwaar wordt.
+				gewond wordt Vader omgetoverd tot een cyborg. Vervolgens dient hij het Galactische Rijk als de belangrijkste handhaver.
 				Vader
-				ultimately redeems himself by saving his son, Luke Skywalker, and killing Palpatine, sacrificing his own
-				life in the process.[6] He is also the secret husband of Padmé Amidala, biological father of Princess
-				Leia,
-				and maternal grandfather of Kylo Ren.
+
+				verlost zichzelf uiteindelijk door zijn zoon, Luke Skywalker, te redden en Palpatine te doden, waarbij hij zijn eigen zoon opoffert.
+				het leven in het proces. [6] Hij is ook de geheime echtgenoot van Padmé Amidala, biologische vader van Prinses.
+				Leia
+				en grootvader van moederskant van Kylo Ren.
 			</p>
 		</div>
 
