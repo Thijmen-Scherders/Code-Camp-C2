@@ -489,6 +489,7 @@ footer {
 .container-column.grey{
     background-color: var(--grey);
     color: black;
+    
 }
 
 .container-column.grey a{
@@ -501,4 +502,6 @@ footer {
     font-weight: bold;
     margin-top: 80px;
 }
+
+
 
