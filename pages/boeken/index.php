@@ -35,9 +35,9 @@ $books = getAllBooks()
 					<p class="likes">Likes: <?php echo $book['likes']; ?></p>
 					<br/>
 					<a href="like.php?id=<?php echo $book['id'] ?>"
-					   onclick="return confirm('Are you sure you want to like this book? Y/N')">Add like </a>
+					   onclick="return confirm('Are you sure you want to like this book? Y/N')">Like dit book</a>
 					<a href="buy.php?id=<?php echo $book['id'] ?>"
-					   onclick="return confirm('Are you sure you want to buy this book? Y/N')">Buy book</a>
+					   onclick="return confirm('Are you sure you want to buy this book? Y/N')">Koop Boek</a>
 					<br/><br/>
 				</div>
 			</div>
