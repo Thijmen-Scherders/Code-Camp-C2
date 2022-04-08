@@ -38,8 +38,7 @@ include_once($path);
 		<img src="/public/img/fanta.jpg" alt="sinas" width="300px" height="300px">
 		<p>Fanta is een koolzuurhoudende frisdrank van The Coca-Cola Company. Fanta is vooral bekend als een
 			sinaasappeldrank met koolzuur (Fanta Orange), maar er bestaan tal van andere smaken, al dan niet met
-			koolzuur. Te noemen zijn onder andere: Mandarin, Fruit Twist, Lemon, Skwizz, Shokata, Apple, Strawberry en
-			Pink Kiss. </p>
+			koolzuur.  </p>
 
 	</div>
 </div>
