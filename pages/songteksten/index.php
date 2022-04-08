@@ -35,7 +35,7 @@ $lyrics = getAllLyricsOverview()
 						<p class="likes">Likes: <?php echo $lyric['likes']; ?></p>
 						<br/>
 						<a href="like.php?id=<?php echo $lyric['id'] ?>"
-						   onclick="return confirm('Are you sure you want to like this song? Y/N')">Add like </a>
+						   onclick="return confirm('Are you sure you want to like this song? Y/N')">Like het liedje </a>
 					</div>
 				</div>
 			</a>
@@ -45,7 +45,7 @@ $lyrics = getAllLyricsOverview()
 </div>
 
 <div class="kruimelpad">
-	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/songteksten/index.php">Songtexten</a> / Overzicht
+	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/songteksten/index.php">Songteksten</a> / Overzicht
 </div>
 
 <?php includeFooter(); ?>
