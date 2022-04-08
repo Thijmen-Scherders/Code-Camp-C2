@@ -505,3 +505,15 @@ footer {
 
 
 
+.container-column.thee.bg-grey{
+    box-shadow:  0rem 0rem 15px 10px lightgray;
+}
+
+.container-column.latte.bg-grey{
+    box-shadow:  0rem 0rem 15px 10px lightgray;
+}
+
+.container-column.koffie.bg-grey{
+    box-shadow:  0rem 0rem 15px 10px lightgray;
+}
+
