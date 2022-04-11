@@ -43,6 +43,10 @@ include_once($path);
 	</div>
 </div>
 
+<div class="invis">
+	n
+</div>
+
 <div class="kruimelpad">
 	Kruimelpad - <a href="<?php echo baseUrl() ?>/pages/dranken/index.php">Draken</a> /
 	<a href="<?php echo baseUrl() ?>/pages/dranken/warmedranken.php">Warme Dranken</a>
