@@ -35,7 +35,7 @@ include_once($path);
 				Descendants, een European Film Award (voor Good Night, and Good Luck) en meerdere Golden Globes (voor
 				Syriana en O Brother, Where Art Thou?).
 			</p>
-			<a href="https://nl.wikipedia.org/wiki/George_Clooney"> Wanna know more?</a>
+			<a href="https://nl.wikipedia.org/wiki/George_Clooney"> Meer willen weten?</a>
 		</div>
 	</div>
 </div>
