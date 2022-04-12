@@ -26,7 +26,7 @@ include_once($auth);
 			<a href="<?php echo baseUrl() ?>/pages/acteurs/index.php">Acteurs</a>
 			<a href="<?php echo baseUrl() ?>/pages/boeken/index.php">Boeken</a>
 			<a href="<?php echo baseUrl() ?>/pages/link/index.php">Links</a>
-			<a href="<?php echo baseUrl() ?>/pages/chatapp/index.php">Help...</a>
+			<a href="<?php echo baseUrl() ?>/pages/chatapp/index.php">Help</a>
             <?php
             if (isset($_SESSION['uname'])) {
                 echo "<a href=" . baseUrl() . "/auth/logout.php" . ">Logout</a>";
